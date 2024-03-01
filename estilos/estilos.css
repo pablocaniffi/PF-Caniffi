@@ -8,23 +8,178 @@
 /* declaración de fuentes descargadas */
 @font-face {
   font-family: fasterstroker;
-  src: url(fonts/fasterstroker.otf);
+  src: url(../fonts/fasterstroker.otf);
 }
 @font-face {
   font-family: greekfreak;
-  src: url(fonts/greekfreak.ttf);
+  src: url(../fonts/greekfreak.ttf);
 }
 @font-face {
   font-family: hiromisake;
-  src: url(fonts/hiromisake.ttf);
+  src: url(../fonts/hiromisake.ttf);
 }
 @font-face {
   font-family: blankspace-solid;
-  src: url(fonts/hiromisake.ttf);
+  src: url(../fonts/hiromisake.ttf);
 }
 @font-face {
   font-family: blankspace-sketch;
-  src: url(fonts/hiromisake.ttf);
+  src: url(../fonts/hiromisake.ttf);
+}
+.encabezado {
+  height: auto;
+  width: 100%;
+  background-color: red;
+  border: grey solid 3px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr;
+  grid-template-rows: 90px 1fr;
+  gap: 5px;
+}
+.encabezado .logoF1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-image: url(../multimedia/inicio/1logof1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 15px;
+}
+.encabezado .redes {
+  grid-column: 3/5;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+}
+.encabezado .redes i {
+  color: black;
+  letter-spacing: 10px;
+  font-size: 30px;
+  grid-column: 5/5;
+  grid-row: 1/2;
+}
+.encabezado .redes i:hover {
+  color: white;
+}
+.encabezado h1 {
+  font-family: fasterstroker, sans-serif;
+  font-size: 28px;
+  padding: 12px;
+  margin: 5px;
+  border: 5px solid black;
+  border-radius: 35px;
+  grid-column: 1/4;
+  grid-row-start: 2;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .encabezado .redes i {
+    letter-spacing: 16px;
+    font-size: 40px;
+  }
+  .encabezado h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 850px) {
+  .encabezado {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 100px;
+    grid-template-rows: 90px 1fr;
+    gap: 5px;
+  }
+  .encabezado .redes {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+  }
+  .encabezado .redes i {
+    letter-spacing: 10px;
+    font-size: 38px;
+  }
+  .encabezado h1 {
+    font-size: 33px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 35px;
+    grid-column: 2/4;
+    grid-row-start: 2;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1110px) {
+  .encabezado {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 100px;
+    grid-template-rows: 90px 1fr;
+    gap: 5px;
+  }
+  .encabezado .redes {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+  }
+  .encabezado .redes i {
+    letter-spacing: 10px;
+    font-size: 38px;
+  }
+  .encabezado h1 {
+    font-size: 33px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 35px;
+    grid-column: 2/4;
+    grid-row-start: 2;
+  }
+}
+@media screen and (min-width: 1111px) {
+  .encabezado {
+    display: grid;
+    grid-template-columns: 80px 1fr 550px 1fr;
+    grid-template-rows: 85px 1fr;
+    gap: 8px;
+    position: fixed;
+    top: 0px;
+  }
+  .encabezado .logoF1 {
+    border-radius: 20px;
+  }
+  .encabezado .redes {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  .encabezado .redes i {
+    letter-spacing: 15px;
+    font-size: 40px;
+  }
+  .encabezado h1 {
+    font-size: 26px;
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 40px;
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
