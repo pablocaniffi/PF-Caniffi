@@ -1,0 +1,38 @@
+// mobile responsive
+
+footer{
+    height: 300px;
+    // width: auto;
+    height: auto;
+    background-color: grey;
+    margin: 0;
+    .pie{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2 , 1fr);
+    }    
+    // .mapa{
+    //     grid-column: 1/2;
+    //     grid-row: 1/2;
+    //     display: flex;
+    //     flex-direction: column;
+    //     flex-wrap: nowrap;
+    //     justify-content: center;
+    //     .googlemap{
+    //         width: auto;
+    //         height: auto;
+    //         padding: 4px;
+    //     }
+    //     .epigrafe{
+    //         /* line-height: 1px; */
+    //         font-size: 16px;
+    //     }
+    // }
+    // .pieNota{
+    //     grid-column: 1/2;
+    //     grid-row: 2/3;
+    //     font-family: blankspace-solid , sans-serif;
+    //     font-size: 16px;
+    //     padding: 4px;
+    // }    
+}
