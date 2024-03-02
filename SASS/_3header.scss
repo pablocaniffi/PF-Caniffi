@@ -1,7 +1,7 @@
 // mobile responsive
 
 .encabezado{
-    height: auto;
+    height: 180px;
     width: 100%;
     background-color: $fondo;
     border: grey solid 3px;
@@ -148,6 +148,7 @@
 @media screen and (min-width:1111px){
     
     .encabezado{
+        height: 99px;
         display: grid;
         grid-template-columns: 80px 1fr 550px 1fr;
         grid-template-rows:85px 1fr;
