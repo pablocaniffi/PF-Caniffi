@@ -431,5 +431,16 @@
     grid-row: 2/3;
   }
 }
+footer {
+  height: 300px;
+  height: auto;
+  background-color: grey;
+  margin: 0;
+}
+footer .pie {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
 
 /*# sourceMappingURL=estilos.css.map */
