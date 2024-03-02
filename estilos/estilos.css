@@ -252,5 +252,25 @@
     top: 99px;
   }
 }
+.asideInicio {
+  background-color: aqua;
+  height: 250px;
+  background-image: url(../multimedia/inicio/2inicioaside.JPG);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: top;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1110px) {
+  .asideInicio {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 1111px) {
+  .asideInicio {
+    margin-top: 149px;
+    height: 500px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

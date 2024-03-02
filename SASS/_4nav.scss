@@ -1,3 +1,5 @@
+// mobile responsive
+
 .navLista{
     display: flex;
     flex-direction: column;
@@ -36,6 +38,8 @@
     }
 }
 
+// optimización a dispositivos >tablet
+
 @media screen and (min-width: 576px){
     
     .navLista{
@@ -58,6 +62,9 @@
     }
 }
 
+
+// optimización 1200px y panorámica
+
 @media screen and (min-width:1111px){
     
     .navLista{
@@ -75,3 +82,5 @@
         top: 99px;
     }
 }
+
+// chequeado con mi versión www0010B
