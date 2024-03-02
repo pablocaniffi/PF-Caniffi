@@ -32,6 +32,7 @@
   background-color: red;
   border: grey solid 3px;
   text-align: center;
+  padding: 0;
   display: grid;
   grid-template-columns: 80px 1fr 1fr;
   grid-template-rows: 90px 1fr;
@@ -261,15 +262,173 @@
   background-position: top;
 }
 
-@media screen and (min-width: 576px) and (max-width: 1110px) {
+@media screen and (min-width: 576px) and (max-width: 850px) {
   .asideInicio {
     height: 800px;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1110px) {
+  .asideInicio {
+    height: 900px;
   }
 }
 @media screen and (min-width: 1111px) {
   .asideInicio {
     margin-top: 149px;
     height: 500px;
+  }
+}
+.mainInicio {
+  height: 400px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  background-color: black;
+}
+.mainInicio .principal {
+  border: 2px solid yellow;
+  background-color: blue;
+  font-family: hiromisake, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+}
+.mainInicio .principal:hover {
+  background-size: 120%;
+  transition: 1s;
+}
+.mainInicio .im1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-image: url(../multimedia/inicio/3iniciopilotos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mainInicio .im2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-image: url(../multimedia/inicio/4inicioalonso.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mainInicio .im3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-image: url(../multimedia/inicio/5iniciocampeones.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mainInicio .im4 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background-image: url(../multimedia/inicio/6iniciocuestionario.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mainInicio a {
+  text-decoration: none;
+  padding: 1px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.mainInicio a:hover {
+  color: yellow;
+}
+
+.h2titulo {
+  /* se uso también en titulo de las páginas */
+  font-family: fasterstroker, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .mainInicio {
+    height: 750px;
+  }
+  .mainInicio .principal {
+    padding: 75px;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 850px) {
+  .mainInicio {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
+    background-color: rgb(3, 3, 3);
+    gap: 5px;
+  }
+  .mainInicio .principal {
+    font-size: 23px;
+    text-align: center;
+    padding: 75px;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1110px) {
+  .mainInicio {
+    height: 900px;
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
+    background-color: rgb(3, 3, 3);
+    gap: 5px;
+  }
+  .mainInicio .principal {
+    font-size: 23px;
+    text-align: center;
+    padding: 75px;
+  }
+  .mainInicio .im1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .mainInicio .im2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .mainInicio .im3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .mainInicio .im4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
+@media screen and (min-width: 1111px) {
+  .mainInicio {
+    height: 500px;
+    margin-top: 149px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px;
+  }
+  .mainInicio .principal {
+    font-size: 30px;
+    text-align: center;
+    padding: 80px;
+  }
+  .mainInicio .im1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .mainInicio .im2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .mainInicio .im3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .mainInicio .im4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
   }
 }
 
