@@ -1,0 +1,78 @@
+    .contenedorIzquierda{
+        padding: 5px;
+        border: 2px grey solid;
+        font-family: $fuentePilotos;
+        display: grid;
+        grid-column: 2fr 1fr;
+        grid-row: 1fr 3fr;
+        gap: $gapPilotos;
+        .nombreIzquierda{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            border: $borderPilotos;
+            text-align: center;
+            padding: 3px;
+            margin-top: 2px;
+            margin-left: 25px;
+            color: $colorpiloto;
+        }
+        .fotoPiloto{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin-left: 10px;
+            border: $borderImgPilotos;
+            padding: 2px;
+        }
+        .listaPiloto{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            font-size: 15px;
+            font-family: $fontListaPiloto;
+            list-style-type: $tipoCirculo;
+            color: $colorpiloto;
+            text-align: left;
+            .datolista{ 
+            padding: 3px;
+            }
+        }
+    }
+    
+    .contenedorDerecha{
+        padding: 5px;
+        border: 2px grey solid;
+        font-family: $fuentePilotos;
+        display: grid;
+        grid-column: 1fr 2fr;
+        grid-row: 1fr 3fr;
+        gap: $gapPilotos;
+        .nombreDerecha{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            border: $borderPilotos;
+            text-align: center;
+            padding: 3px;
+            margin-top: 2px;
+            margin-left: 25px;
+            color: $colorpiloto;
+        }
+        .fotoPiloto{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            margin-right: 10px;
+            border: $borderImgPilotos;
+            padding: 2px;
+        }
+        .listaPiloto{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            font-size: 15px;
+            list-style-type: $tipoCirculo;
+            font-family: $fontListaPiloto;
+            color: $colorpiloto;
+            margin-left: 25px;
+            text-align: left;
+            .datolista{ 
+            padding: 3px;
+            }
+        }
+    }

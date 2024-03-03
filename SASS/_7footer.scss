@@ -1,38 +1,26 @@
-// mobile responsive
+// responsive  en todo dispositivo
 
-footer{
-    height: 300px;
-    // width: auto;
-    height: auto;
+.pie{
+    padding: 0;
+    height: fit-content;
     background-color: grey;
-    margin: 0;
-    .pie{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2 , 1fr);
-    }    
-    // .mapa{
-    //     grid-column: 1/2;
-    //     grid-row: 1/2;
-    //     display: flex;
-    //     flex-direction: column;
-    //     flex-wrap: nowrap;
-    //     justify-content: center;
-    //     .googlemap{
-    //         width: auto;
-    //         height: auto;
-    //         padding: 4px;
-    //     }
-    //     .epigrafe{
-    //         /* line-height: 1px; */
-    //         font-size: 16px;
-    //     }
-    // }
-    // .pieNota{
-    //     grid-column: 1/2;
-    //     grid-row: 2/3;
-    //     font-family: blankspace-solid , sans-serif;
-    //     font-size: 16px;
-    //     padding: 4px;
-    // }    
+    font-family: blankspace-solid , sans-serif;
+    padding: 8px;
+    color: black;
+    // border: green 2px solid;
+    .map{
+        height: auto;
+        width: 75%;
+    }
+    .epigrafe{
+        padding: 5px;
+        font-size: 16px;
+        // border: blue 2px solid;
+    }
+    .textoFooter{
+        padding: 2px;
+        font-size: 17px;
+        text-align: left;
+        // border: red 2px solid;
+    }
 }

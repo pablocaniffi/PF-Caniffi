@@ -276,7 +276,7 @@
     height: 800px;
   }
   .asidePilotos {
-    height: 4800px;
+    height: 100px;
     background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
     background-repeat: repeat-y;
     background-size: contain;
@@ -288,7 +288,7 @@
     height: 900px;
   }
   .asidePilotos {
-    height: 4870px;
+    height: 100px;
     background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
     background-repeat: repeat-y;
     background-size: contain;
@@ -301,7 +301,7 @@
     height: 500px;
   }
   .asidePilotos {
-    height: 5000px;
+    height: 600px;
     background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
     background-repeat: repeat-y;
     background-size: contain;
@@ -374,95 +374,85 @@
 }
 
 .mainPilotos {
-  height: 5500px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70px repeat(20, 1fr);
-  gap: 8px;
+  background-color: hsl(120, 90%, 20%);
+  height: fit-content;
 }
-.mainPilotos .p0 {
+.mainPilotos .contenedorIzquierda {
+  padding: 5px;
+  border: 2px grey solid;
+  font-family: blankspace-sketch, sans-serif;
+  display: grid;
+  grid-column: 2fr 1fr;
+  grid-row: 1fr 3fr;
+  gap: 2px;
+}
+.mainPilotos .contenedorIzquierda .nombreIzquierda {
   grid-column: 1/2;
   grid-row: 1/2;
+  border: 2px solid red;
+  text-align: center;
+  padding: 3px;
+  margin-top: 2px;
+  margin-left: 25px;
+  color: yellow;
 }
-.mainPilotos .p1 {
+.mainPilotos .contenedorIzquierda .fotoPiloto {
   grid-column: 1/2;
   grid-row: 2/3;
+  margin-left: 10px;
+  border: 2px solid red;
+  padding: 2px;
 }
-.mainPilotos .p2 {
-  grid-column: 1/2;
-  grid-row: 3/4;
+.mainPilotos .contenedorIzquierda .listaPiloto {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 15px;
+  font-family: hiromisake, sans-serif;
+  list-style-type: circle;
+  color: yellow;
+  text-align: left;
 }
-.mainPilotos .p3 {
-  grid-column: 1/2;
-  grid-row: 4/5;
+.mainPilotos .contenedorIzquierda .listaPiloto .datolista {
+  padding: 3px;
 }
-.mainPilotos .p4 {
-  grid-column: 1/2;
-  grid-row: 5/6;
+.mainPilotos .contenedorDerecha {
+  padding: 5px;
+  border: 2px grey solid;
+  font-family: blankspace-sketch, sans-serif;
+  display: grid;
+  grid-column: 1fr 2fr;
+  grid-row: 1fr 3fr;
+  gap: 2px;
 }
-.mainPilotos .p5 {
-  grid-column: 1/2;
-  grid-row: 6/7;
+.mainPilotos .contenedorDerecha .nombreDerecha {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: 2px solid red;
+  text-align: center;
+  padding: 3px;
+  margin-top: 2px;
+  margin-left: 25px;
+  color: yellow;
 }
-.mainPilotos .p6 {
-  grid-column: 1/2;
-  grid-row: 7/8;
+.mainPilotos .contenedorDerecha .fotoPiloto {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-right: 10px;
+  border: 2px solid red;
+  padding: 2px;
 }
-.mainPilotos .p7 {
+.mainPilotos .contenedorDerecha .listaPiloto {
   grid-column: 1/2;
-  grid-row: 8/9;
+  grid-row: 2/3;
+  font-size: 15px;
+  list-style-type: circle;
+  font-family: hiromisake, sans-serif;
+  color: yellow;
+  margin-left: 25px;
+  text-align: left;
 }
-.mainPilotos .p8 {
-  grid-column: 1/2;
-  grid-row: 9/10;
-}
-.mainPilotos .p9 {
-  grid-column: 1/2;
-  grid-row: 10/11;
-}
-.mainPilotos .p10 {
-  grid-column: 1/2;
-  grid-row: 11/12;
-}
-.mainPilotos .p11 {
-  grid-column: 1/2;
-  grid-row: 12/13;
-}
-.mainPilotos .p12 {
-  grid-column: 1/2;
-  grid-row: 13/14;
-}
-.mainPilotos .p13 {
-  grid-column: 1/2;
-  grid-row: 14/15;
-}
-.mainPilotos .p14 {
-  grid-column: 1/2;
-  grid-row: 15/16;
-}
-.mainPilotos .p15 {
-  grid-column: 1/2;
-  grid-row: 16/17;
-}
-.mainPilotos .p16 {
-  grid-column: 1/2;
-  grid-row: 17/18;
-}
-.mainPilotos .p17 {
-  grid-column: 1/2;
-  grid-row: 18/19;
-}
-.mainPilotos .p18 {
-  grid-column: 1/2;
-  grid-row: 19/20;
-}
-.mainPilotos .p19 {
-  grid-column: 1/2;
-  grid-row: 20/21;
-}
-.mainPilotos .p20 {
-  grid-column: 1/2;
-  grid-row: 21/22;
+.mainPilotos .contenedorDerecha .listaPiloto .datolista {
+  padding: 3px;
 }
 
 .h2titulo {
@@ -559,17 +549,109 @@
     grid-column: 2/3;
     grid-row: 2/3;
   }
+  .mainPilotos {
+    margin-top: 149px;
+  }
 }
-footer {
-  height: 300px;
-  height: auto;
+.pie {
+  padding: 0;
+  height: fit-content;
   background-color: grey;
-  margin: 0;
+  font-family: blankspace-solid, sans-serif;
+  padding: 8px;
+  color: black;
 }
-footer .pie {
+.pie .map {
+  height: auto;
+  width: 75%;
+}
+.pie .epigrafe {
+  padding: 5px;
+  font-size: 16px;
+}
+.pie .textoFooter {
+  padding: 2px;
+  font-size: 17px;
+  text-align: left;
+}
+
+.contenedorIzquierda {
+  padding: 5px;
+  border: 2px grey solid;
+  font-family: blankspace-sketch, sans-serif;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-column: 2fr 1fr;
+  grid-row: 1fr 3fr;
+  gap: 2px;
+}
+.contenedorIzquierda .nombreIzquierda {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: 2px solid red;
+  text-align: center;
+  padding: 3px;
+  margin-top: 2px;
+  margin-left: 25px;
+  color: yellow;
+}
+.contenedorIzquierda .fotoPiloto {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-left: 10px;
+  border: 2px solid red;
+  padding: 2px;
+}
+.contenedorIzquierda .listaPiloto {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 15px;
+  font-family: hiromisake, sans-serif;
+  list-style-type: circle;
+  color: yellow;
+  text-align: left;
+}
+.contenedorIzquierda .listaPiloto .datolista {
+  padding: 3px;
+}
+
+.contenedorDerecha {
+  padding: 5px;
+  border: 2px grey solid;
+  font-family: blankspace-sketch, sans-serif;
+  display: grid;
+  grid-column: 1fr 2fr;
+  grid-row: 1fr 3fr;
+  gap: 2px;
+}
+.contenedorDerecha .nombreDerecha {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: 2px solid red;
+  text-align: center;
+  padding: 3px;
+  margin-top: 2px;
+  margin-left: 25px;
+  color: yellow;
+}
+.contenedorDerecha .fotoPiloto {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-right: 10px;
+  border: 2px solid red;
+  padding: 2px;
+}
+.contenedorDerecha .listaPiloto {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 15px;
+  list-style-type: circle;
+  font-family: hiromisake, sans-serif;
+  color: yellow;
+  margin-left: 25px;
+  text-align: left;
+}
+.contenedorDerecha .listaPiloto .datolista {
+  padding: 3px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
