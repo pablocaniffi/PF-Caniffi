@@ -2,6 +2,8 @@
 
 // mobile-responsive
 
+
+// INICIO
 .asideInicio {
     background-color: aqua;
     height: 250px; // altura igual a Nav hasta 576px
@@ -12,17 +14,46 @@
     background-position: top;
 }
 
+
+// PILOTOS
+.asidePilotos{
+    background-color: aqua;
+    height: 250px; // altura igual a Nav hasta 576px
+    // width: auto;
+    background-image: url(../multimedia/pilotos/asidepilotos.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: top;
+}
+
+
 // opitmización a dispositivos >tablet
 
 @media screen and (min-width:576px) and (max-width:850px){
     .asideInicio{
     height: 800px;
     }
+
+    .asidePilotos{
+        height: 4800px;
+        background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: top;
+    }
 }
 
 @media screen and (min-width:851px) and (max-width:1110px){
     .asideInicio{
     height: 900px;
+    }
+
+    .asidePilotos{
+        height: 4870px;
+        background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: top;
     }
 }
 
@@ -33,5 +64,13 @@
     .asideInicio{
     margin-top: calc(99px + 50px);
     height: 500px;
+    }
+
+    .asidePilotos{
+        height: 5000px;
+        background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: top;
     }
 }

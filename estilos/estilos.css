@@ -262,20 +262,50 @@
   background-position: top;
 }
 
+.asidePilotos {
+  background-color: aqua;
+  height: 250px;
+  background-image: url(../multimedia/pilotos/asidepilotos.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: top;
+}
+
 @media screen and (min-width: 576px) and (max-width: 850px) {
   .asideInicio {
     height: 800px;
+  }
+  .asidePilotos {
+    height: 4800px;
+    background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1110px) {
   .asideInicio {
     height: 900px;
   }
+  .asidePilotos {
+    height: 4870px;
+    background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
+  }
 }
 @media screen and (min-width: 1111px) {
   .asideInicio {
     margin-top: 149px;
     height: 500px;
+  }
+  .asidePilotos {
+    height: 5000px;
+    background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
   }
 }
 .mainInicio {
@@ -334,6 +364,105 @@
 }
 .mainInicio a:hover {
   color: yellow;
+}
+
+.h2titulo {
+  /* se uso también en titulo de las páginas */
+  font-family: fasterstroker, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.mainPilotos {
+  height: 5500px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px repeat(20, 1fr);
+  gap: 8px;
+}
+.mainPilotos .p0 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.mainPilotos .p1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.mainPilotos .p2 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.mainPilotos .p3 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.mainPilotos .p4 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.mainPilotos .p5 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.mainPilotos .p6 {
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+.mainPilotos .p7 {
+  grid-column: 1/2;
+  grid-row: 8/9;
+}
+.mainPilotos .p8 {
+  grid-column: 1/2;
+  grid-row: 9/10;
+}
+.mainPilotos .p9 {
+  grid-column: 1/2;
+  grid-row: 10/11;
+}
+.mainPilotos .p10 {
+  grid-column: 1/2;
+  grid-row: 11/12;
+}
+.mainPilotos .p11 {
+  grid-column: 1/2;
+  grid-row: 12/13;
+}
+.mainPilotos .p12 {
+  grid-column: 1/2;
+  grid-row: 13/14;
+}
+.mainPilotos .p13 {
+  grid-column: 1/2;
+  grid-row: 14/15;
+}
+.mainPilotos .p14 {
+  grid-column: 1/2;
+  grid-row: 15/16;
+}
+.mainPilotos .p15 {
+  grid-column: 1/2;
+  grid-row: 16/17;
+}
+.mainPilotos .p16 {
+  grid-column: 1/2;
+  grid-row: 17/18;
+}
+.mainPilotos .p17 {
+  grid-column: 1/2;
+  grid-row: 18/19;
+}
+.mainPilotos .p18 {
+  grid-column: 1/2;
+  grid-row: 19/20;
+}
+.mainPilotos .p19 {
+  grid-column: 1/2;
+  grid-row: 20/21;
+}
+.mainPilotos .p20 {
+  grid-column: 1/2;
+  grid-row: 21/22;
 }
 
 .h2titulo {
