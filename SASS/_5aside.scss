@@ -6,7 +6,7 @@
 // INICIO
 .asideInicio {
     background-color: aqua;
-    height: 250px; // altura igual a Nav hasta 576px
+    height: $alturaNavAside; // altura igual a Nav hasta 576px
     // width: auto;
     background-image: url(../multimedia/inicio/2inicioaside.JPG);
     background-repeat: repeat-y;
@@ -18,9 +18,21 @@
 // PILOTOS
 .asidePilotos{
     background-color: aqua;
-    height: 250px; // altura igual a Nav hasta 576px
+    height: $alturaNavAside; // altura igual a Nav hasta 576px
     // width: auto;
     background-image: url(../multimedia/pilotos/asidepilotos.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: top;
+}
+
+
+// ALONSO
+.asideAlonso{
+    background-color: aqua;
+    height: $alturaNavAside; // altura igual a Nav hasta 576px
+    // width: auto;
+    background-image: url(../multimedia/alonso/1alonso.jpg);
     background-repeat: repeat-y;
     background-size: cover;
     background-position: top;
@@ -31,7 +43,7 @@
 
 @media screen and (min-width:576px) and (max-width:850px){
     .asideInicio{
-    height: 800px;
+    height: $alturaInicio576;
     }
 
     .asidePilotos{
@@ -41,11 +53,15 @@
         background-size: contain;
         background-position: top;
     }
+
+    .asideAlonso{
+        height: $alturaAlonso576;
+    }
 }
 
 @media screen and (min-width:851px) and (max-width:1110px){
     .asideInicio{
-    height: 900px;
+    height: $alturaInicio851;
     }
 
     .asidePilotos{
@@ -53,6 +69,12 @@
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
         background-repeat: repeat-y;
         background-size: contain;
+        background-position: top;
+    }
+
+    .asideAlonso{
+        height: $alturaAlonso851;
+        background-size: cover;
         background-position: top;
     }
 }
@@ -63,14 +85,19 @@
 @media screen and (min-width: 1111px){
     .asideInicio{
     margin-top: calc(99px + 50px);
-    height: 500px;
+    height: $alturaInicio1111;
     }
 
     .asidePilotos{
         height: 600px;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
         background-repeat: repeat-y;
-        background-size: contain;
+        background-size: cover;
         background-position: top;
+    }
+
+    .asideAlonso{
+        margin-top: $margintopmain;
+        height: $alturaAlonso1111;
     }
 }
