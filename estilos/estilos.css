@@ -456,84 +456,28 @@
 
 .mainPilotos {
   background-color: hsl(120, 90%, 20%);
-  height: fit-content;
+  padding: 0;
 }
-.mainPilotos .contenedorIzquierda {
-  padding: 5px;
-  border: 2px grey solid;
+.mainPilotos .cuadrado {
+  border: grey 2px solid;
+}
+.mainPilotos .cuadrado .nombre {
+  margin-top: 3px;
+  border: 2px red solid;
   font-family: blankspace-sketch, sans-serif;
-  display: grid;
-  grid-column: 2fr 1fr;
-  grid-row: 1fr 3fr;
-  gap: 2px;
+  font-size: 23px;
 }
-.mainPilotos .contenedorIzquierda .nombreIzquierda {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  border: 2px solid red;
-  text-align: center;
+.mainPilotos .cuadrado .fotoPiloto {
+  border: 4px red solid;
   padding: 3px;
-  margin-top: 2px;
-  margin-left: 25px;
+  margin: 3px;
+}
+.mainPilotos .cuadrado .lista {
   color: yellow;
-}
-.mainPilotos .contenedorIzquierda .fotoPiloto {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin-left: 10px;
-  border: 2px solid red;
-  padding: 2px;
-}
-.mainPilotos .contenedorIzquierda .listaPiloto {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  font-size: 15px;
-  font-family: hiromisake, sans-serif;
+  margin-top: 45px;
   list-style-type: circle;
-  color: yellow;
-  text-align: left;
-}
-.mainPilotos .contenedorIzquierda .listaPiloto .datolista {
-  padding: 3px;
-}
-.mainPilotos .contenedorDerecha {
-  padding: 5px;
-  border: 2px grey solid;
   font-family: blankspace-sketch, sans-serif;
-  display: grid;
-  grid-column: 1fr 2fr;
-  grid-row: 1fr 3fr;
-  gap: 2px;
-}
-.mainPilotos .contenedorDerecha .nombreDerecha {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  border: 2px solid red;
-  text-align: center;
-  padding: 3px;
-  margin-top: 2px;
-  margin-left: 25px;
-  color: yellow;
-}
-.mainPilotos .contenedorDerecha .fotoPiloto {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-right: 10px;
-  border: 2px solid red;
-  padding: 2px;
-}
-.mainPilotos .contenedorDerecha .listaPiloto {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  font-size: 15px;
-  list-style-type: circle;
-  font-family: hiromisake, sans-serif;
-  color: yellow;
-  margin-left: 25px;
-  text-align: left;
-}
-.mainPilotos .contenedorDerecha .listaPiloto .datolista {
-  padding: 3px;
+  font-size: 19px;
 }
 
 .mainAlonso {
@@ -817,12 +761,10 @@
     text-align: left;
   }
   .mainCuestionario .ubiForm7 {
-    grid-column: 1/2;
-    grid-row: 6/7;
     display: flex;
     flex-flow: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 8px;
   }
 }
@@ -1004,8 +946,8 @@
     grid-column: 1/2;
     grid-row: 6/7;
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    flex-wrap: nowrap;
     justify-content: space-between;
     padding: 4px;
   }
