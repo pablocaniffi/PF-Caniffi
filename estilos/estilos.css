@@ -280,6 +280,14 @@
   background-position: top;
 }
 
+.asideCampeones {
+  height: 250px;
+  background-image: url(../multimedia/campeones/1vettel.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: top;
+}
+
 @media screen and (min-width: 576px) and (max-width: 850px) {
   .asideInicio {
     height: 800px;
@@ -293,6 +301,13 @@
   }
   .asideAlonso {
     height: 950px;
+  }
+  .asideCampeones {
+    height: 900px;
+    background-image: url(../multimedia/campeones/5ferrari.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1110px) {
@@ -311,6 +326,13 @@
     background-size: cover;
     background-position: top;
   }
+  .asideCampeones {
+    height: 870px;
+    background-image: url(../multimedia/campeones/5ferrari.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+  }
 }
 @media screen and (min-width: 1111px) {
   .asideInicio {
@@ -327,6 +349,14 @@
   .asideAlonso {
     margin-top: 149px;
     height: 1050px;
+  }
+  .asideCampeones {
+    margin-top: 149px;
+    height: 800px;
+    background-image: url(../multimedia/campeones/5ferrari.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
   }
 }
 .mainInicio {
@@ -548,6 +578,10 @@
   font-family: fasterstroker, sans-serif;
   font-size: 20px;
   padding: 20px;
+}
+
+.mainCampeones {
+  background-color: rgba(18, 77, 97, 0.3);
 }
 
 @media screen and (min-width: 400px) and (max-width: 575px) {

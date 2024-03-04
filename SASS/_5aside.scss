@@ -39,6 +39,16 @@
 }
 
 
+// CAMPEONES
+.asideCampeones{
+    height: $alturaNavAside;
+    background-image: url(../multimedia/campeones/1vettel.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: top;
+}
+
+
 // opitmización a dispositivos >tablet
 
 @media screen and (min-width:576px) and (max-width:850px){
@@ -56,6 +66,14 @@
 
     .asideAlonso{
         height: $alturaAlonso576;
+    }
+
+    .asideCampeones{
+        height: 900px;
+        background-image: url(../multimedia/campeones/5ferrari.jpg);
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -76,6 +94,14 @@
         height: $alturaAlonso851;
         background-size: cover;
         background-position: top;
+    }
+
+    .asideCampeones{
+        height: 870px;
+        background-image: url(../multimedia/campeones/5ferrari.jpg);
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -99,5 +125,14 @@
     .asideAlonso{
         margin-top: $margintopmain;
         height: $alturaAlonso1111;
+    }
+
+    .asideCampeones{
+        margin-top: $margintopmain;
+        height: 800px;
+        background-image: url(../multimedia/campeones/5ferrari.jpg);
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: center;
     }
 }
