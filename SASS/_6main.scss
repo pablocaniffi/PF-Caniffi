@@ -256,10 +256,6 @@
         .ubiForm6{
             grid-column: 1/2;
             grid-row: 5/6;
-            display: flex;
-            flex-flow: column;
-            flex-wrap: nowrap;
-            justify-content: center;
             .comentarios{
                 margin-top: 0;
                 height: 80px;
@@ -270,10 +266,6 @@
         .ubiForm7{
             grid-column: 1/2 ;
             grid-row: 6/7;
-            display: flex;
-            flex-flow: column;
-            flex-wrap: nowrap;
-            justify-content: space-around;
         }
     }
 }
@@ -328,30 +320,7 @@
         }
     }
 
-    // CUESTIONARIO
-    .ubiForm6{
-        grid-column: 1/2;
-        grid-row: 5/6;
-        display: flex;
-        flex-flow: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        .comentarios{
-            margin-top: 0;
-            height: 130px;
-            width: auto;
-            text-align: left;
-         }
-    }        
-    .ubiForm7{
-        grid-column: 1/2 ;
-        grid-row: 6/7;
-        display: flex;
-        flex-flow: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        padding: 8px;
-    }
+    // CUESTIONARIO optimizado en esta resolución
 }
 
 // encierra resolución 600px
@@ -411,22 +380,7 @@
 
     // CUESTIONARIO
     .mainCuestionario{
-        height: $alturaCuestionario576;
-        .ubiForm6{
-            .comentarios{
-                margin-top: 0;
-                height: 130px;
-                width: auto;
-                text-align: left;
-             }
-        }        
-        .ubiForm7{
-            display: flex;
-            flex-flow: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 8px;
-        }   
+        height: $alturaCuestionario576;   
     }
 }
 
@@ -516,24 +470,7 @@
 
     // CUESTIONARIO
     .mainCuestionario{
-        height: $alturaCuestionario851;
-        .ubiForm6{
-            .comentarios{
-                margin-top: 0;
-                height: 130px;
-                width: auto;
-                text-align: left;
-             }                
-        }
-        .ubiForm7{
-            grid-column: 1/2 ;
-            grid-row: 6/7;
-            display: flex;
-            flex-flow: row;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            padding: 8px;
-        }   
+        height: $alturaCuestionario851;   
     }
 
 }
@@ -646,23 +583,5 @@
     .mainCuestionario{
         margin-top: $margintopmain;
         height: $alturaCuestionario1111;
-        .ubiForm6{
-            .comentarios{
-                margin-top: 0;
-                height: 130px;
-                width: 350px;
-                text-align: left;
-             }   
-        }
-        .ubiForm7{
-            grid-column: 1/2 ;
-            grid-row: 6/7;
-            display: flex;
-            flex-flow: column-reverse;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            padding: 4px;
-        }
     }
 }
-

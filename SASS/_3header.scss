@@ -11,6 +11,7 @@
     grid-template-columns: 80px 1fr 1fr;
     grid-template-rows: 90px 1fr;
     gap: 5px;
+    z-index: 1;
 
         .logoF1{
             grid-column: 1/2;

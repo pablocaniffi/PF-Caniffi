@@ -37,6 +37,7 @@
   grid-template-columns: 80px 1fr 1fr;
   grid-template-rows: 90px 1fr;
   gap: 5px;
+  z-index: 1;
 }
 .encabezado .logoF1 {
   grid-column: 1/2;
@@ -194,6 +195,7 @@
   border: grey solid 3px;
   height: 250px;
   padding: 6px;
+  z-index: 2;
 }
 .navLista .itemNav {
   font-family: greekfreak, sans-serif;
@@ -638,10 +640,6 @@
 .mainCuestionario .ubiFormDD .ubiForm6 {
   grid-column: 1/2;
   grid-row: 5/6;
-  display: flex;
-  flex-flow: column;
-  flex-wrap: nowrap;
-  justify-content: center;
 }
 .mainCuestionario .ubiFormDD .ubiForm6 .comentarios {
   margin-top: 0;
@@ -652,10 +650,6 @@
 .mainCuestionario .ubiFormDD .ubiForm7 {
   grid-column: 1/2;
   grid-row: 6/7;
-  display: flex;
-  flex-flow: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
 }
 
 @media screen and (min-width: 400px) and (max-width: 575px) {
@@ -690,29 +684,6 @@
   .mainAlonso #videoAlonso {
     padding: 10px;
     margin: 30px;
-  }
-  .ubiForm6 {
-    grid-column: 1/2;
-    grid-row: 5/6;
-    display: flex;
-    flex-flow: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
-  .ubiForm6 .comentarios {
-    margin-top: 0;
-    height: 130px;
-    width: auto;
-    text-align: left;
-  }
-  .ubiForm7 {
-    grid-column: 1/2;
-    grid-row: 6/7;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 8px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 850px) {
@@ -763,19 +734,6 @@
   }
   .mainCuestionario {
     height: 1400px;
-  }
-  .mainCuestionario .ubiForm6 .comentarios {
-    margin-top: 0;
-    height: 130px;
-    width: auto;
-    text-align: left;
-  }
-  .mainCuestionario .ubiForm7 {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 8px;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1110px) {
@@ -847,21 +805,6 @@
   }
   .mainCuestionario {
     height: 1400px;
-  }
-  .mainCuestionario .ubiForm6 .comentarios {
-    margin-top: 0;
-    height: 130px;
-    width: auto;
-    text-align: left;
-  }
-  .mainCuestionario .ubiForm7 {
-    grid-column: 1/2;
-    grid-row: 6/7;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 8px;
   }
 }
 @media screen and (min-width: 1111px) {
@@ -959,21 +902,6 @@
   .mainCuestionario {
     margin-top: 149px;
     height: 1400px;
-  }
-  .mainCuestionario .ubiForm6 .comentarios {
-    margin-top: 0;
-    height: 130px;
-    width: 350px;
-    text-align: left;
-  }
-  .mainCuestionario .ubiForm7 {
-    grid-column: 1/2;
-    grid-row: 6/7;
-    display: flex;
-    flex-flow: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 4px;
   }
 }
 .pie {
