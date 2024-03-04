@@ -288,6 +288,14 @@
   background-position: top;
 }
 
+.asideCuestionario {
+  height: 250px;
+  background-image: url(../multimedia/cuestionario/3cuestionario.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 576px) and (max-width: 850px) {
   .asideInicio {
     height: 800px;
@@ -308,6 +316,13 @@
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
+  }
+  .asideCuestionario {
+    height: 1400px;
+    background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1110px) {
@@ -333,6 +348,13 @@
     background-size: cover;
     background-position: center;
   }
+  .asideCuestionario {
+    height: 1400px;
+    background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
+  }
 }
 @media screen and (min-width: 1111px) {
   .asideInicio {
@@ -357,6 +379,14 @@
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
+  }
+  .asideCuestionario {
+    margin-top: 149px;
+    height: 1400px;
+    background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: top;
   }
 }
 .mainInicio {
@@ -578,10 +608,107 @@
   font-family: fasterstroker, sans-serif;
   font-size: 20px;
   padding: 20px;
+  text-align: left;
 }
 
 .mainCampeones {
   background-color: rgba(18, 77, 97, 0.3);
+}
+
+.mainCuestionario {
+  height: 1400px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 1fr;
+  gap: 6px;
+  background-color: yellow;
+}
+.mainCuestionario .ubiForm1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.mainCuestionario .ubiFormDD {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 90px) 730px 150px 1fr;
+  gap: 5px;
+}
+.mainCuestionario .ubiFormDD .formulario {
+  font-family: blankspace-sketch, sans-serif;
+  font-size: 18px;
+  color: black;
+  padding: 9px;
+}
+.mainCuestionario .ubiFormDD .blancos {
+  background-color: orange;
+  padding: 2px;
+  width: 200px;
+  font-family: blankspace-solid, sans-serif;
+  text-align: center;
+}
+.mainCuestionario .ubiFormDD .ubiForm2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.mainCuestionario .ubiFormDD .ubiForm3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.mainCuestionario .ubiFormDD .ubiForm4 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.mainCuestionario .ubiFormDD .ubiForm5 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  border: grey 1px solid;
+  margin: 5px;
+}
+.mainCuestionario .ubiFormDD .ubiForm5 .field {
+  color: green;
+  font-size: 18px;
+  padding: 0 0 0 25px;
+  margin-left: 0px;
+}
+.mainCuestionario .ubiFormDD .ubiForm6 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.mainCuestionario .ubiFormDD .ubiForm6 .comentarios {
+  margin-top: 0;
+  height: 80px;
+  width: auto;
+  text-align: left;
+}
+.mainCuestionario .ubiFormDD .ubiForm7 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 400px) and (max-width: 575px) {
@@ -609,6 +736,29 @@
   .mainAlonso #videoAlonso {
     padding: 10px;
     margin: 30px;
+  }
+  .ubiForm6 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .ubiForm6 .comentarios {
+    margin-top: 0;
+    height: 130px;
+    width: auto;
+    text-align: left;
+  }
+  .ubiForm7 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 8px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 850px) {
@@ -655,6 +805,24 @@
   }
   .mainAlonso #videoAlonso {
     margin-left: 78px;
+    padding: 8px;
+  }
+  .mainCuestionario {
+    height: 1400px;
+  }
+  .mainCuestionario .ubiForm6 .comentarios {
+    margin-top: 0;
+    height: 130px;
+    width: auto;
+    text-align: left;
+  }
+  .mainCuestionario .ubiForm7 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     padding: 8px;
   }
 }
@@ -717,6 +885,24 @@
   }
   .mainAlonso #videoAlonso {
     margin-left: 70px;
+  }
+  .mainCuestionario {
+    height: 1400px;
+  }
+  .mainCuestionario .ubiForm6 .comentarios {
+    margin-top: 0;
+    height: 130px;
+    width: auto;
+    text-align: left;
+  }
+  .mainCuestionario .ubiForm7 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 8px;
   }
 }
 @media screen and (min-width: 1111px) {
@@ -803,6 +989,25 @@
     padding: 8px;
     height: auto;
     width: auto;
+  }
+  .mainCuestionario {
+    margin-top: 149px;
+    height: 1400px;
+  }
+  .mainCuestionario .ubiForm6 .comentarios {
+    margin-top: 0;
+    height: 130px;
+    width: 350px;
+    text-align: left;
+  }
+  .mainCuestionario .ubiForm7 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4px;
   }
 }
 .pie {

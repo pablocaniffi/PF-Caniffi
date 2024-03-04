@@ -49,13 +49,26 @@
 }
 
 
+// CUESTIONARIO
+.asideCuestionario{
+    height: $alturaNavAside;
+    background-image: url(../multimedia/cuestionario/3cuestionario.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+
+
 // opitmización a dispositivos >tablet
 
 @media screen and (min-width:576px) and (max-width:850px){
+    
+    // INICIO
     .asideInicio{
     height: $alturaInicio576;
     }
 
+    // PILOTOS
     .asidePilotos{
         height: 100px;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
@@ -64,10 +77,12 @@
         background-position: top;
     }
 
+    // ALONSO
     .asideAlonso{
         height: $alturaAlonso576;
     }
 
+    // CAMPEONES
     .asideCampeones{
         height: 900px;
         background-image: url(../multimedia/campeones/5ferrari.jpg);
@@ -75,13 +90,25 @@
         background-size: cover;
         background-position: center;
     }
+
+    // CUESTIONARIO
+    .asideCuestionario{
+        height: $alturaCuestionario576;
+        background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: top;
+    }
 }
 
 @media screen and (min-width:851px) and (max-width:1110px){
+    
+    // INICIO
     .asideInicio{
     height: $alturaInicio851;
     }
 
+    // PILOTOS
     .asidePilotos{
         height: 100px;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
@@ -90,12 +117,14 @@
         background-position: top;
     }
 
+    // ALONSO
     .asideAlonso{
         height: $alturaAlonso851;
         background-size: cover;
         background-position: top;
     }
 
+    // CAMPEONES
     .asideCampeones{
         height: 870px;
         background-image: url(../multimedia/campeones/5ferrari.jpg);
@@ -103,17 +132,29 @@
         background-size: cover;
         background-position: center;
     }
+
+    // CUESTIONARIO
+    .asideCuestionario{
+        height: $alturaCuestionario851;
+        background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: top;
+    }
 }
 
 
 // optimización 1200px y panorámica
 
 @media screen and (min-width: 1111px){
+    
+    // INICIO
     .asideInicio{
     margin-top: calc(99px + 50px);
     height: $alturaInicio1111;
     }
 
+    // PILOTOS
     .asidePilotos{
         height: 600px;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
@@ -122,11 +163,13 @@
         background-position: top;
     }
 
+    // ALONSO
     .asideAlonso{
         margin-top: $margintopmain;
         height: $alturaAlonso1111;
     }
 
+    // CAMPEONES
     .asideCampeones{
         margin-top: $margintopmain;
         height: 800px;
@@ -134,5 +177,15 @@
         background-repeat: repeat-y;
         background-size: cover;
         background-position: center;
+    }
+
+    // CUESTIONARIO
+    .asideCuestionario{
+        margin-top: $margintopmain;
+        height: $alturaCuestionario1111;
+        background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+        background-position: top;
     }
 }

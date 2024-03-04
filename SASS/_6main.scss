@@ -225,11 +225,110 @@
         font-family: fasterstroker , sans-serif;
         font-size: 20px;
         padding: 20px; 
+        text-align: left;
     }
 
 .mainCampeones{
     background-color: rgba(18, 77, 97, 0.3) ;    
 // tabla optimizada x bootstrap    
+}
+
+
+.mainCuestionario{
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr;
+    gap: 6px;
+    background-color: yellow;
+    .ubiForm1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        // acá está el h2
+    }
+    .ubiFormDD{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3 , 90px) 730px 150px 1fr;
+        gap: 5px;
+        .formulario{
+            font-family: blankspace-sketch , sans-serif;
+            font-size: 18px;
+            color: black;
+            padding: 9px;
+        }
+        .blancos{
+            background-color: orange;
+            padding: 2px;
+            width: 200px;
+            font-family: blankspace-solid  , sans-serif;
+            text-align: center;    
+        }
+        .ubiForm2{
+            grid-column: 1/2 ;
+            grid-row: 1/2;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .ubiForm3{
+            grid-column: 1/2 ;
+            grid-row: 2/3;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }        
+        .ubiForm4{
+            grid-column: 1/2;
+            grid-row: 3/4;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }      
+        .ubiForm5{
+            grid-column: 1/2 ;
+            grid-row: 4/5;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            border: grey 1px solid;
+            margin: 5px;
+            .field{
+                color: green;
+                font-size: 18px;
+                padding: 0 0 0 25px;
+                margin-left: 0px;
+            }
+        }        
+        .ubiForm6{
+            grid-column: 1/2;
+            grid-row: 5/6;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            .comentarios{
+                margin-top: 0;
+                height: 80px;
+                width: auto;
+                text-align: left;
+             }
+        }        
+        .ubiForm7{
+            grid-column: 1/2 ;
+            grid-row: 6/7;
+            display: flex;
+            flex-flow: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+    }
 }
 
     
@@ -238,8 +337,9 @@
 
 // encierra predeterminado 480px
 
-// INICIO
 @media screen and (min-width: 400px) and (max-width: 575px ){
+    
+    // INICIO
     .mainInicio{
         height: 750px;
         .principal{
@@ -247,6 +347,7 @@
          }
     }
 
+    // ALONSO
     .mainAlonso{
         height: 950px;
         display: grid;
@@ -266,12 +367,37 @@
             margin: 30px;
         }
     }
+
+    // CUESTIONARIO
+    .ubiForm6{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        .comentarios{
+            margin-top: 0;
+            height: 130px;
+            width: auto;
+            text-align: left;
+         }
+    }        
+    .ubiForm7{
+        grid-column: 1/2 ;
+        grid-row: 6/7;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 8px;
+    }
 }
 
 // encierra resolución 600px
 
-// INICIO
 @media screen and (min-width: 576px) and (max-width:850px){
+    // INICIO
     .mainInicio{
         height: $alturaInicio576;
         display: grid;
@@ -294,6 +420,7 @@
         padding: 24px; 
     }
 
+    // ALONSO
     .mainAlonso{
         height: $alturaAlonso576;
         display: grid;
@@ -321,13 +448,35 @@
             padding: 8px;
         }
     }
+
+    // CUESTIONARIO
+    .mainCuestionario{
+        height: $alturaCuestionario576;
+        .ubiForm6{
+            .comentarios{
+                margin-top: 0;
+                height: 130px;
+                width: auto;
+                text-align: left;
+             }
+        }        
+        .ubiForm7{
+            grid-column: 1/2 ;
+            grid-row: 6/7;
+            display: flex;
+            flex-flow: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            padding: 8px;
+        }   
+    }
 }
 
 
 // optimización encierra resolución 1000px
 
-// INICIO
 @media screen and (min-width: 851px) and (max-width:1110px){
+    // INICIO
     .mainInicio{
         height: $alturaInicio851;
         display: grid;
@@ -367,6 +516,7 @@
         text-align: left;
     }
 
+    // ALONSO
     .mainAlonso{
         height: $alturaAlonso851;
         display: grid;
@@ -392,12 +542,34 @@
         }
     }
 
+    // CUESTIONARIO
+    .mainCuestionario{
+        height: $alturaCuestionario851;
+        .ubiForm6{
+            .comentarios{
+                margin-top: 0;
+                height: 130px;
+                width: auto;
+                text-align: left;
+             }                
+        }
+        .ubiForm7{
+            grid-column: 1/2 ;
+            grid-row: 6/7;
+            display: flex;
+            flex-flow: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            padding: 8px;
+        }   
+    }
+
 }
 
 // optimización final encierra 1200px y panorámicas 
 
-// INICIO
 @media screen and (min-width:1111px){
+    // INICIO
     .mainInicio{
         height: $alturaInicio1111;
         margin-top: $margintopmain;
@@ -435,10 +607,12 @@
         text-align: left;
     }
 
+    // PILOTOS
     .mainPilotos{
         margin-top: $margintopmain;
     }
 
+    // ALONSO
     .mainAlonso{
         margin-top: $margintopmain;
         height: $alturaAlonso1111;
@@ -483,10 +657,30 @@
             padding: 8px;
             height: auto;
             width: auto;
-        }
-        
+        }        
     }
 
-
+    // CUESTIONARIO
+    .mainCuestionario{
+        margin-top: $margintopmain;
+        height: $alturaCuestionario1111;
+        .ubiForm6{
+            .comentarios{
+                margin-top: 0;
+                height: 130px;
+                width: 350px;
+                text-align: left;
+             }   
+        }
+        .ubiForm7{
+            grid-column: 1/2 ;
+            grid-row: 6/7;
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 4px;
+        }
+    }
 }
 
