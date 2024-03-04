@@ -77,19 +77,21 @@
             margin-top: 3px;
             border: 2px red solid;
             font-family: blankspace-sketch , sans-serif;
-            font-size: 23px;
+            font-size: 21px;
         }
         .fotoPiloto{
             border: 4px red solid;
             padding: 3px;
             margin: 3px;
+            height: 150px;
+            width: auto;
         }
         .lista{
             color: yellow;
             margin-top: 45px;
             list-style-type: circle;
             font-family: blankspace-sketch , sans-serif;
-            font-size: 19px;
+            font-size: 17px;
         }
     }    
 }
@@ -147,8 +149,8 @@
         text-align: left;
         padding: 3px;
         border: grey 2px solid;
-        list-style-type: $tipoCirculo;
-        font-family: $fontListaPiloto;
+        list-style-type: circle;
+        font-family: blankspace-sketch , sans-serif;
         font-size: 17px;
         .tituloLista{
             text-decoration: underline;
@@ -290,6 +292,19 @@
         .principal{
             padding: 75px;
          }
+    }
+
+    // PILOTOS
+    .mainPilotos{
+        .cuadrado{
+            .fotoPiloto{
+                height: 170px;
+                width: auto;
+            }
+            .lista{
+                font-size: 19px;
+            }
+        }    
     }
 
     // ALONSO
@@ -459,6 +474,20 @@
         text-align: left;
     }
 
+
+    // PILOTOS
+    .mainPilotos{
+        .cuadrado{
+            .fotoPiloto{
+                height: 180px;
+                width: auto;
+            }
+            .lista{
+                font-size: 19px;
+            }
+        }    
+    }
+
     // ALONSO
     .mainAlonso{
         height: $alturaAlonso851;
@@ -550,9 +579,19 @@
         text-align: left;
     }
 
+
     // PILOTOS
     .mainPilotos{
         margin-top: $margintopmain;
+        .cuadrado{
+            .fotoPiloto{
+                height: 180px;
+                width: auto;
+            }
+            .lista{
+                font-size: 19px;
+            }
+        }    
     }
 
     // ALONSO

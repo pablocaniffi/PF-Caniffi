@@ -465,19 +465,21 @@
   margin-top: 3px;
   border: 2px red solid;
   font-family: blankspace-sketch, sans-serif;
-  font-size: 23px;
+  font-size: 21px;
 }
 .mainPilotos .cuadrado .fotoPiloto {
   border: 4px red solid;
   padding: 3px;
   margin: 3px;
+  height: 150px;
+  width: auto;
 }
 .mainPilotos .cuadrado .lista {
   color: yellow;
   margin-top: 45px;
   list-style-type: circle;
   font-family: blankspace-sketch, sans-serif;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .mainAlonso {
@@ -531,7 +533,7 @@
   padding: 3px;
   border: grey 2px solid;
   list-style-type: circle;
-  font-family: hiromisake, sans-serif;
+  font-family: blankspace-sketch, sans-serif;
   font-size: 17px;
 }
 .mainAlonso .lista .tituloLista {
@@ -661,6 +663,13 @@
   }
   .mainInicio .principal {
     padding: 75px;
+  }
+  .mainPilotos .cuadrado .fotoPiloto {
+    height: 170px;
+    width: auto;
+  }
+  .mainPilotos .cuadrado .lista {
+    font-size: 19px;
   }
   .mainAlonso {
     height: 950px;
@@ -806,6 +815,13 @@
     padding: 24px;
     text-align: left;
   }
+  .mainPilotos .cuadrado .fotoPiloto {
+    height: 180px;
+    width: auto;
+  }
+  .mainPilotos .cuadrado .lista {
+    font-size: 19px;
+  }
   .mainAlonso {
     height: 850px;
     display: grid;
@@ -885,6 +901,13 @@
   }
   .mainPilotos {
     margin-top: 149px;
+  }
+  .mainPilotos .cuadrado .fotoPiloto {
+    height: 180px;
+    width: auto;
+  }
+  .mainPilotos .cuadrado .lista {
+    font-size: 19px;
   }
   .mainAlonso {
     margin-top: 149px;
@@ -981,30 +1004,27 @@
   display: grid;
   grid-column: 2fr 1fr;
   grid-row: 1fr 3fr;
-  gap: 2px;
 }
 .contenedorIzquierda .nombreIzquierda {
   grid-column: 1/2;
   grid-row: 1/2;
-  border: 2px solid red;
+  border: red 2px solid;
   text-align: center;
   padding: 3px;
   margin-top: 2px;
   margin-left: 25px;
-  color: yellow;
 }
 .contenedorIzquierda .fotoPiloto {
   grid-column: 1/2;
   grid-row: 2/3;
   margin-left: 10px;
-  border: 2px solid red;
+  border: red 2px solid;
   padding: 2px;
 }
 .contenedorIzquierda .listaPiloto {
   grid-column: 2/3;
   grid-row: 2/3;
   font-size: 15px;
-  font-family: hiromisake, sans-serif;
   list-style-type: circle;
   color: yellow;
   text-align: left;
@@ -1016,36 +1036,28 @@
 .contenedorDerecha {
   padding: 5px;
   border: 2px grey solid;
-  font-family: blankspace-sketch, sans-serif;
   display: grid;
   grid-column: 1fr 2fr;
   grid-row: 1fr 3fr;
-  gap: 2px;
 }
 .contenedorDerecha .nombreDerecha {
   grid-column: 2/3;
   grid-row: 1/2;
-  border: 2px solid red;
   text-align: center;
   padding: 3px;
   margin-top: 2px;
   margin-left: 25px;
-  color: yellow;
 }
 .contenedorDerecha .fotoPiloto {
   grid-column: 2/3;
   grid-row: 2/3;
   margin-right: 10px;
-  border: 2px solid red;
   padding: 2px;
 }
 .contenedorDerecha .listaPiloto {
   grid-column: 1/2;
   grid-row: 2/3;
   font-size: 15px;
-  list-style-type: circle;
-  font-family: hiromisake, sans-serif;
-  color: yellow;
   margin-left: 25px;
   text-align: left;
 }
