@@ -301,7 +301,7 @@
     height: 800px;
   }
   .asidePilotos {
-    height: 100px;
+    height: auto;
     background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
     background-repeat: repeat-y;
     background-size: contain;
@@ -330,7 +330,7 @@
     height: 900px;
   }
   .asidePilotos {
-    height: 100px;
+    height: auto;
     background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
     background-repeat: repeat-y;
     background-size: contain;
@@ -362,10 +362,11 @@
     height: 500px;
   }
   .asidePilotos {
-    height: 600px;
+    margin-top: 149px;
+    height: auto;
     background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
   }
   .asideAlonso {

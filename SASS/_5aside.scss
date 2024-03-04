@@ -70,7 +70,7 @@
 
     // PILOTOS
     .asidePilotos{
-        height: 100px;
+        height: $alturaPilotos576;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
         background-repeat: repeat-y;
         background-size: contain;
@@ -110,7 +110,7 @@
 
     // PILOTOS
     .asidePilotos{
-        height: 100px;
+        height: $alturaPilotos851;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
         background-repeat: repeat-y;
         background-size: contain;
@@ -156,10 +156,11 @@
 
     // PILOTOS
     .asidePilotos{
-        height: 600px;
+        margin-top: $margintopmain;
+        height: $alturaPilotos1111;
         background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
         background-repeat: repeat-y;
-        background-size: cover;
+        background-size: contain;
         background-position: top;
     }
 
