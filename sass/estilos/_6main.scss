@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4 , 1fr);
-    background-color: black;
+    background-color: map-get($colores, colorInicio );
     .principal{
         border: 2px solid yellow;
         background-color: blue;
@@ -69,7 +69,7 @@
 
 // PILOTOS
 .mainPilotos{
-    background-color: hsl(120, 90%, 20%);
+    background-color: map-get($colores, colorAlonso );
     padding: 0;
     .cuadrado{
         border: grey 2px solid;
@@ -107,7 +107,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 310px 130px 230px 1fr;
-    background-color: yellow;
+    background-color: map-get($colores, colorAlonso );
     gap: 2px;
     .al11{
         grid-column:1/2;
@@ -175,19 +175,21 @@
         text-align: left;
     }
 
+// CAMPEONES
 .mainCampeones{
-    background-color: rgba(18, 77, 97, 0.3) ;    
+    background-color: map-get($colores, colorCampeones ) ;    
 // tabla optimizada x bootstrap    
 }
 
 
+// CUESTIONARIO
 .mainCuestionario{
     height: 1400px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40px 1fr;
     gap: 6px;
-    background-color: yellow;
+    background-color: map-get($colores, colorCuestionario );
     .ubiForm1{
         grid-column: 1/2;
         grid-row: 1/2;
