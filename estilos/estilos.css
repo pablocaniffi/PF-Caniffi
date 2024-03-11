@@ -69,7 +69,7 @@
   color: white;
 }
 .encabezado h1 {
-  font-family: fasterstroker, sans-serif;
+  font-family: fasterstroker sans-serif;
   font-size: 28px;
   padding: 12px;
   margin: 5px;
@@ -403,7 +403,7 @@
 .mainInicio .principal {
   border: 2px solid yellow;
   background-color: blue;
-  font-family: hiromisake, sans-serif;
+  font-family: grhiromisake, sans-serif;
   font-size: 20px;
   text-align: center;
   padding: 25px;
@@ -502,7 +502,7 @@
 .mainAlonso .alonsodesc {
   grid-column: 1/2;
   grid-row: 2/3;
-  font-family: hiromisake, sans-serif;
+  font-family: grhiromisake, sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: blue;

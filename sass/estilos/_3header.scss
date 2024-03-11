@@ -3,7 +3,7 @@
 .encabezado{
     height: 180px;
     width: 100%;
-    background-color: $fondo;
+    background-color: map-get($colores , colorPrincipal );
     border: grey solid 3px;
     text-align: center;
     padding: 0;
@@ -35,7 +35,6 @@
 
                 i{
                     color: black;
-                    // background-color: $fondo;
                     letter-spacing: 10px;
                     font-size: 30px;
                     grid-column: 5/5;
@@ -47,7 +46,7 @@
         }
 
         h1{
-            font-family: fasterstroker  , sans-serif;
+            font-family: map-get($fuentes, fuenteFaster ) sans-serif;
             font-size: 28px;
             padding: 12px;
             margin: 5px;

@@ -12,7 +12,7 @@
     .principal{
         border: 2px solid yellow;
         background-color: blue;
-        font-family: hiromisake , sans-serif;
+        font-family: map-get($fuentes, fuenteHiro ) , sans-serif;
         font-size: 20px;
         text-align: center;
         padding: 25px;
@@ -62,7 +62,7 @@
 
 .h2titulo{
     /* se uso también en titulo de las páginas */
-    font-family: fasterstroker , sans-serif;
+    font-family: map-get($fuentes, fuenteFaster ) , sans-serif;
     font-size: 20px;
     padding: 20px; 
 }
@@ -76,7 +76,7 @@
         .nombre{
             margin-top: 3px;
             border: 2px red solid;
-            font-family: blankspace-sketch , sans-serif;
+            font-family:map-get($fuentes, fuenteBlankSketch ) , sans-serif;
             font-size: 21px;
         }
         .fotoPiloto{
@@ -90,7 +90,7 @@
             color: yellow;
             margin-top: 45px;
             list-style-type: circle;
-            font-family: blankspace-sketch , sans-serif;
+            font-family: map-get($fuentes, fuenteBlankSketch ) , sans-serif;
             font-size: 17px;
         }
     }    
@@ -117,7 +117,7 @@
     .alonsodesc{
         grid-column:1/2;
         grid-row: 2/3;
-        font-family: hiromisake , sans-serif;
+        font-family: map-get($fuentes, fuenteHiro ) , sans-serif;
         font-size: 16px;
         text-decoration: none;
         color: blue;
@@ -150,7 +150,7 @@
         padding: 3px;
         border: grey 2px solid;
         list-style-type: circle;
-        font-family: blankspace-sketch , sans-serif;
+        font-family: map-get($fuentes, fuenteBlankSketch ) , sans-serif;
         font-size: 17px;
         .tituloLista{
             text-decoration: underline;
@@ -169,7 +169,7 @@
 
     .h2titulo{
         /* se uso también en titulo de las páginas */
-        font-family: fasterstroker , sans-serif;
+        font-family: map-get($fuentes, fuenteFaster ) , sans-serif;
         font-size: 20px;
         padding: 20px; 
         text-align: left;
@@ -203,7 +203,7 @@
         grid-template-rows: repeat(3 , 90px) 730px 150px 1fr;
         gap: 5px;
         .formulario{
-            font-family: blankspace-sketch , sans-serif;
+            font-family: map-get($fuentes, fuenteBlankSketch ), sans-serif;
             font-size: 18px;
             color: black;
             padding: 9px;
@@ -212,7 +212,7 @@
             background-color: orange;
             padding: 2px;
             width: 200px;
-            font-family: blankspace-solid  , sans-serif;
+            font-family: map-get($fuentes, fuenteBlankSolid )  , sans-serif;
             text-align: center;    
         }
         .ubiForm2{
@@ -346,7 +346,7 @@
 
     .h2titulo{
         /* se uso también en titulo de las páginas */
-        font-family: fasterstroker , sans-serif;
+        font-family: map-get($fuentes, fuenteFaster ) , sans-serif;
         font-size: 25px;
         padding: 24px; 
     }
@@ -424,7 +424,7 @@
 
     .h2titulo{
         /* se uso también en titulo de las páginas */
-        font-family: fasterstroker , sans-serif;
+        font-family: map-get($fuentes, fuenteFaster ) , sans-serif;
         font-size: 25px;
         padding: 24px; 
         text-align: left;
