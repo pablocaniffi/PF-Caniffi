@@ -2,62 +2,35 @@
 
 // mobile-responsive
 
+// altura igual a Nav hasta 576px
 
 // INICIO
 .asideInicio {
-    background-color: map-get($colores, colorAside );
-    height: $alturaNavAside; // altura igual a Nav hasta 576px
-    // width: auto;
-    background-image: url(../multimedia/inicio/2inicioaside.JPG);
-    background-repeat: repeat-y;
-    background-size: contain;
-    background-position: top;
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../multimedia/inicio/2inicioaside.JPG) , repeat-y , contain, top);
 }
 
 
 // PILOTOS
 .asidePilotos{
-    background-color: map-get($colores, colorAside );
-    height: $alturaNavAside; // altura igual a Nav hasta 576px
-    // width: auto;
-    background-image: url(../multimedia/pilotos/asidepilotos.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: top;
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../multimedia/pilotos/asidepilotos.jpg) , repeat-y , cover, top);
 }
 
 
 // ALONSO
 .asideAlonso{
-    background-color: map-get($colores, colorAside );
-    height: $alturaNavAside; // altura igual a Nav hasta 576px
-    // width: auto;
-    background-image: url(../multimedia/alonso/1alonso.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: top;
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside ,  url(../multimedia/alonso/1alonso.jpg) , repeat-y , cover, top);
 }
 
 
 // CAMPEONES
 .asideCampeones{
-    background-color: map-get($colores, colorAside );
-    height: $alturaNavAside;
-    background-image: url(../multimedia/campeones/1vettel.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: top;
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside ,  url(../multimedia/campeones/1vettel.jpg) , repeat-y , cover, top);
 }
 
 
 // CUESTIONARIO
 .asideCuestionario{
-    background-color: map-get($colores, colorAside );
-    height: $alturaNavAside;
-    background-image: url(../multimedia/cuestionario/3cuestionario.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center;
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../multimedia/cuestionario/3cuestionario.jpg)  , repeat-y , cover, center);
 }
 
 
@@ -72,11 +45,7 @@
 
     // PILOTOS
     .asidePilotos{
-        height: $alturaPilotos576;
-        background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-        background-position: top;
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos576 , url(../multimedia/pilotos/asidepilotos2.jpg)  , repeat-y , contain, top);
     }
 
     // ALONSO
@@ -86,20 +55,12 @@
 
     // CAMPEONES
     .asideCampeones{
-        height: 900px;
-        background-image: url(../multimedia/campeones/5ferrari.jpg);
-        background-repeat: repeat-y;
-        background-size: cover;
-        background-position: center;
+        @include asideGeneral (map-get($colores, colorAside ) , 900px ,  url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
     .asideCuestionario{
-        height: $alturaCuestionario576;
-        background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-        background-position: top;
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario576 , url(../multimedia/cuestionario/2cuestionario.jpg) , repeat-y , contain, top);
     }
 }
 
@@ -112,11 +73,7 @@
 
     // PILOTOS
     .asidePilotos{
-        height: $alturaPilotos851;
-        background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-        background-position: top;
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos851 , url(../multimedia/pilotos/asidepilotos2.jpg) , repeat-y , contain, top);
     }
 
     // ALONSO
@@ -128,20 +85,12 @@
 
     // CAMPEONES
     .asideCampeones{
-        height: 870px;
-        background-image: url(../multimedia/campeones/5ferrari.jpg);
-        background-repeat: repeat-y;
-        background-size: cover;
-        background-position: center;
+        @include asideGeneral (map-get($colores, colorAside ) , 870px , url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
     .asideCuestionario{
-        height: $alturaCuestionario851;
-        background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-        background-position: top;
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario851 , url(../multimedia/cuestionario/2cuestionario.jpg) , repeat-y , contain, top);
     }
 }
 
@@ -159,11 +108,7 @@
     // PILOTOS
     .asidePilotos{
         margin-top: $margintopmain;
-        height: $alturaPilotos1111;
-        background-image: url(../multimedia/pilotos/asidepilotos2.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-        background-position: top;
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos1111 ,  url(../multimedia/pilotos/asidepilotos2.jpg) , repeat-y , contain , top);
     }
 
     // ALONSO
@@ -175,20 +120,12 @@
     // CAMPEONES
     .asideCampeones{
         margin-top: $margintopmain;
-        height: 800px;
-        background-image: url(../multimedia/campeones/5ferrari.jpg);
-        background-repeat: repeat-y;
-        background-size: cover;
-        background-position: center;
+        @include asideGeneral (map-get($colores, colorAside ) , 800px , url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
     .asideCuestionario{
         margin-top: $margintopmain;
-        height: $alturaCuestionario1111;
-        background-image: url(../multimedia/cuestionario/2cuestionario.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-        background-position: top;
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario1111 , url(../multimedia/cuestionario/2cuestionario.jpg) , repeat-y , contain, top);
     }
 }
