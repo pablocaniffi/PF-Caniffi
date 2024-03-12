@@ -5,7 +5,7 @@
 
 // INICIO
 .asideInicio {
-    background-color: aqua;
+    background-color: map-get($colores, colorAside );
     height: $alturaNavAside; // altura igual a Nav hasta 576px
     // width: auto;
     background-image: url(../multimedia/inicio/2inicioaside.JPG);
@@ -17,7 +17,7 @@
 
 // PILOTOS
 .asidePilotos{
-    background-color: aqua;
+    background-color: map-get($colores, colorAside );
     height: $alturaNavAside; // altura igual a Nav hasta 576px
     // width: auto;
     background-image: url(../multimedia/pilotos/asidepilotos.jpg);
@@ -29,7 +29,7 @@
 
 // ALONSO
 .asideAlonso{
-    background-color: aqua;
+    background-color: map-get($colores, colorAside );
     height: $alturaNavAside; // altura igual a Nav hasta 576px
     // width: auto;
     background-image: url(../multimedia/alonso/1alonso.jpg);
@@ -41,6 +41,7 @@
 
 // CAMPEONES
 .asideCampeones{
+    background-color: map-get($colores, colorAside );
     height: $alturaNavAside;
     background-image: url(../multimedia/campeones/1vettel.jpg);
     background-repeat: repeat-y;
@@ -51,6 +52,7 @@
 
 // CUESTIONARIO
 .asideCuestionario{
+    background-color: map-get($colores, colorAside );
     height: $alturaNavAside;
     background-image: url(../multimedia/cuestionario/3cuestionario.jpg);
     background-repeat: repeat-y;

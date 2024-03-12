@@ -1,12 +1,7 @@
 // mobile responsive
 
 .navLista{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
+    @include flexbox (flex , column , wrap , space-evenly , center , center);
     background-color: red;
     border: grey solid 3px;
     height: $alturaNavAside;
@@ -45,12 +40,7 @@
     
     .navLista{
         height: 60px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-        align-content: center;
+        @include flexbox (flex , row , nowrap , space-evenly , center , center);
         // width: 100%;
         height: auto;
         padding: 5px;
@@ -66,22 +56,13 @@
 
 // optimización 1200px y panorámica
 
-@media screen and (min-width:1111px){
-    
+@media screen and (min-width:1111px){    
     .navLista{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        align-content: center;
+        @include flexbox (flex , row , wrap , space-evenly , center , space-evenly);
         padding: 5px;
-
         height: 50px;
         // width: auto;
         position: fixed;
         top: 99px;
     }
 }
-
-// chequeado con mi versión www0010B

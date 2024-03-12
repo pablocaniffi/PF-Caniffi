@@ -1,9 +1,9 @@
 @import './1generales';
 @import './2variables';
 
-@import '../utilidades/mapcolores';
-@import '../utilidades/mapfuentes';
+@import '../utilidades/maps';
 @import '../utilidades/extend';
+@import '../utilidades/mixin';
 
 @import './3header';
 @import './4nav';

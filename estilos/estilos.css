@@ -26,6 +26,24 @@
   font-family: blankspace-sketch;
   src: url(../fonts/hiromisake.ttf);
 }
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
 .encabezado {
   height: 180px;
   width: 100%;
@@ -54,7 +72,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   align-content: space-evenly;
 }
@@ -69,7 +87,7 @@
   color: white;
 }
 .encabezado h1 {
-  font-family: fasterstroker sans-serif;
+  font-family: fasterstroker, sans-serif;
   font-size: 28px;
   padding: 12px;
   margin: 5px;
@@ -248,7 +266,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center;
+    align-content: space-evenly;
     padding: 5px;
     height: 50px;
     position: fixed;
@@ -283,6 +301,7 @@
 }
 
 .asideCampeones {
+  background-color: aqua;
   height: 250px;
   background-image: url(../multimedia/campeones/1vettel.jpg);
   background-repeat: repeat-y;
@@ -291,6 +310,7 @@
 }
 
 .asideCuestionario {
+  background-color: aqua;
   height: 250px;
   background-image: url(../multimedia/cuestionario/3cuestionario.jpg);
   background-repeat: repeat-y;
@@ -398,12 +418,13 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
+  gap: 0px;
   background-color: black;
 }
 .mainInicio .principal {
   border: 2px solid yellow;
   background-color: blue;
-  font-family: grhiromisake, sans-serif;
+  font-family: blankspace-solid, sans-serif;
   font-size: 20px;
   text-align: center;
   padding: 25px;
@@ -458,7 +479,7 @@
 }
 
 .mainPilotos {
-  background-color: yellow;
+  background-color: hsl(120, 90%, 20%);
   padding: 0;
 }
 .mainPilotos .cuadrado {
@@ -468,6 +489,7 @@
   margin-top: 3px;
   border: 2px red solid;
   font-family: blankspace-sketch, sans-serif;
+  color: orange;
   font-size: 21px;
 }
 .mainPilotos .cuadrado .fotoPiloto {
@@ -491,6 +513,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 50px 310px 130px 230px 1fr;
+  gap: 0px;
   background-color: yellow;
   gap: 2px;
 }
@@ -502,7 +525,7 @@
 .mainAlonso .alonsodesc {
   grid-column: 1/2;
   grid-row: 2/3;
-  font-family: grhiromisake, sans-serif;
+  font-family: blankspace-solid, sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: blue;
@@ -520,6 +543,8 @@
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 .mainAlonso .alFotos .alonso1 {
   width: auto;
@@ -600,34 +625,24 @@
 .mainCuestionario .ubiFormDD .ubiForm2 {
   grid-column: 1/2;
   grid-row: 1/2;
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 .mainCuestionario .ubiFormDD .ubiForm3 {
   grid-column: 1/2;
   grid-row: 2/3;
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 .mainCuestionario .ubiFormDD .ubiForm4 {
   grid-column: 1/2;
   grid-row: 3/4;
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 .mainCuestionario .ubiFormDD .ubiForm5 {
   grid-column: 1/2;
   grid-row: 4/5;
   display: flex;
-  flex-flow: column;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+  align-content: center;
   border: grey 1px solid;
   margin: 5px;
 }
@@ -692,6 +707,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+    gap: 0px;
     padding: 20px;
     background-color: rgb(3, 3, 3);
     gap: 5px;
@@ -712,6 +728,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px 250px 190px 230px 1fr;
+    gap: 0px;
     background-color: yellow;
     gap: 2px;
   }
@@ -742,6 +759,7 @@
     display: grid;
     grid-template-columns: 1fr 600px 1fr;
     grid-template-rows: repeat(4, 1fr);
+    gap: 0px;
     padding: 20px;
     background-color: rgb(3, 3, 3);
     gap: 5px;
@@ -786,6 +804,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px 150px 190px 230px 1fr;
+    gap: 0px;
   }
   .mainAlonso .alonsodesc {
     margin: 15px;
@@ -857,8 +876,9 @@
     margin-top: 149px;
     height: 1050px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 60px 320px 340px 1fr;
+    gap: 0px;
   }
   .mainAlonso .al11 {
     grid-row: 1/2;
@@ -878,6 +898,8 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: center;
+    align-content: center;
   }
   .mainAlonso .alFotos .alonso1 {
     width: auto;
