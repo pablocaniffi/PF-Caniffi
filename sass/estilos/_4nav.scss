@@ -7,31 +7,29 @@
     border: grey solid 3px;
     height: $alturaNavAside;
     // width: auto;
-    padding: 6px;
+    padding: 0px;
     z-index: 2;
-    .itemNav{
+    a{
+        border: 2px solid black;
+        text-align: center;
+        // padding: 200px;
+        // border: 25px;
+        color: #fff;
+        text-decoration: none;
         font-family: map-get($fuentes, fuenteGreek ) , sans-serif ;
         font-size: 18px;
         height: 40px;
         width: 130px;
-        border: 2px solid black;
-        padding: 9px;
-        text-align: center;
-        div{
-            padding: 200px;
-            border: 25px;
-        }
-        a{
-            text-decoration: none;
-            color: #fff;
-            &:hover{
-                color: black;
-                text-shadow: 1px 1px 3px black;
-            }
-        }
+        padding: 10px;
         &:hover{
-            background-color: green;
-        }    
+            color: black;
+            text-shadow: 1px 1px 3px black;        
+        }
+        .itemNav{
+            &:hover{
+                background-color: green;
+            }    
+        }
     }
 }
 

@@ -49,13 +49,13 @@
   gap: 5px;
   z-index: 1;
 }
-.encabezado .logoF1 {
+.encabezado a {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(../multimedia/inicio/1logof1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+}
+.encabezado a .logoF1 {
+  height: 90px;
+  width: 80px;
   border-radius: 15px;
 }
 .encabezado .redes {
@@ -205,31 +205,25 @@
   background-color: red;
   border: grey solid 3px;
   height: 250px;
-  padding: 6px;
+  padding: 0px;
   z-index: 2;
 }
-.navLista .itemNav {
+.navLista a {
+  border: 2px solid black;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
   font-family: greekfreak, sans-serif;
   font-size: 18px;
   height: 40px;
   width: 130px;
-  border: 2px solid black;
-  padding: 9px;
-  text-align: center;
+  padding: 10px;
 }
-.navLista .itemNav div {
-  padding: 200px;
-  border: 25px;
-}
-.navLista .itemNav a {
-  text-decoration: none;
-  color: #fff;
-}
-.navLista .itemNav a:hover {
+.navLista a:hover {
   color: black;
   text-shadow: 1px 1px 3px black;
 }
-.navLista .itemNav:hover {
+.navLista a .itemNav:hover {
   background-color: green;
 }
 
