@@ -36,6 +36,7 @@
 }
 
 .encabezado {
+  margin: 0;
   height: 180px;
   width: 100%;
   background-color: red;
@@ -194,6 +195,7 @@
   }
 }
 .navLista {
+  margin: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -413,6 +415,7 @@
   }
 }
 .mainInicio {
+  margin: 0;
   height: 400px;
   padding: 0;
   display: grid;
@@ -927,6 +930,7 @@
   }
 }
 .pie {
+  margin: 0;
   padding: 0;
   height: fit-content;
   background-color: grey;

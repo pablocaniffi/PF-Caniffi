@@ -1,6 +1,7 @@
 // mobile responsive
 
 .navLista{
+    margin: 0;
     @include flexbox (flex , column , wrap , space-evenly , center , center);
     background-color: red;
     border: grey solid 3px;
