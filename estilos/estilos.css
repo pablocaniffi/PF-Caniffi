@@ -55,6 +55,11 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 992px) {
+  .pie .logosEscuderias {
+    display: none;
+  }
+}
 .encabezado {
   margin: 0;
   height: 180px;
@@ -963,11 +968,6 @@
   width: auto;
 }
 
-@media screen and (max-width: 992px) {
-  .pie .logosEscuderias {
-    display: none;
-  }
-}
 .contenedorIzquierda {
   padding: 5px;
   border: 2px grey solid;

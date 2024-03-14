@@ -1,0 +1,12 @@
+$visual: correcto;
+
+@if $visual==correcto{
+    @media screen and (max-width:992px) {
+        // para lg en footer
+        .pie{
+            .logosEscuderias{
+                display: none;
+            }
+        }
+    }  
+};
