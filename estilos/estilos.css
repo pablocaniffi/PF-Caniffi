@@ -222,8 +222,6 @@
 .navLista a:hover {
   color: black;
   text-shadow: 1px 1px 3px black;
-}
-.navLista a .itemNav:hover {
   background-color: green;
 }
 
@@ -418,7 +416,9 @@
   gap: 0px;
   background-color: black;
 }
-.mainInicio .principal {
+.mainInicio a {
+  text-decoration: none;
+  color: #fff;
   border: 2px solid yellow;
   background-color: blue;
   font-family: blankspace-solid, sans-serif;
@@ -426,9 +426,15 @@
   text-align: center;
   padding: 25px;
 }
-.mainInicio .principal:hover {
+.mainInicio a:hover {
+  color: yellow;
   background-size: 120%;
   transition: 1s;
+}
+.mainInicio .principal {
+  display: inline-block;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.425);
 }
 .mainInicio .im1 {
   grid-column: 1/2;
@@ -457,15 +463,6 @@
   background-image: url(../multimedia/inicio/6iniciocuestionario.jpg);
   background-position: center;
   background-size: cover;
-}
-.mainInicio a {
-  text-decoration: none;
-  padding: 1px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.425);
-}
-.mainInicio a:hover {
-  color: yellow;
 }
 
 .h2titulo {
@@ -669,7 +666,8 @@
     height: 750px;
   }
   .mainInicio .principal {
-    padding: 75px;
+    margin-top: 40px;
+    padding: 8px;
   }
   .mainPilotos .cuadrado .fotoPiloto {
     height: 170px;
@@ -710,9 +708,10 @@
     gap: 5px;
   }
   .mainInicio .principal {
+    margin-top: 40px;
     font-size: 23px;
     text-align: center;
-    padding: 75px;
+    padding: 8px;
   }
   .h2titulo {
     /* se uso también en titulo de las páginas */
@@ -762,9 +761,10 @@
     gap: 5px;
   }
   .mainInicio .principal {
+    margin-top: 60px;
     font-size: 23px;
     text-align: center;
-    padding: 75px;
+    padding: 8px;
   }
   .mainInicio .im1 {
     grid-column: 2/3;
@@ -836,7 +836,8 @@
   .mainInicio .principal {
     font-size: 30px;
     text-align: center;
-    padding: 80px;
+    margin-top: 60px;
+    padding: 8px;
   }
   .mainInicio .im1 {
     grid-column: 1/2;
