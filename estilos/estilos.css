@@ -944,9 +944,18 @@
 .pie .textoFooter {
   padding: 2px;
   font-size: 17px;
-  text-align: left;
+  text-align: center;
+}
+.pie .logosEscuderias {
+  height: 160px;
+  width: auto;
 }
 
+@media screen and (max-width: 992px) {
+  .pie .logosEscuderias {
+    display: none;
+  }
+}
 .contenedorIzquierda {
   padding: 5px;
   border: 2px grey solid;

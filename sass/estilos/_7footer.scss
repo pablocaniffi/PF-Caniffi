@@ -16,12 +16,33 @@
     .epigrafe{
         padding: 5px;
         font-size: 16px;
-        // border: blue 2px solid;
     }
     .textoFooter{
         padding: 2px;
         font-size: 17px;
-        text-align: left;
+        text-align: center;
         // border: red 2px solid;
+    }
+    .logosEscuderias{
+        height: 160px;
+        width: auto;
+    }
+}
+
+// @media screen and (min-width: 576px){
+//     .pie{
+//         .epigrafe{
+//             margin-right: 40px;
+//             // border: blue 2px solid;        
+//         }
+//     }
+// }
+
+@media screen and (max-width:992px) {
+    // para lg en footer
+    .pie{
+        .logosEscuderias{
+            display: none;
+        }
     }
 }
