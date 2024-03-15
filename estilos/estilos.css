@@ -489,12 +489,36 @@
   padding: 20px;
 }
 
+@keyframes animacion_pilotos {
+  0% {
+    border: red solid 2px;
+  }
+  25% {
+    border: red dashed 2px;
+  }
+  50% {
+    border: yellow dashed 2px;
+  }
+  75% {
+    border: yellow solid 2px;
+  }
+  95% {
+    border: orange solid 2px;
+  }
+  100% {
+    border: rgb(255, 115, 0) solid 2px;
+  }
+}
 .mainPilotos {
   background-color: hsl(120, 90%, 20%);
   padding: 0;
 }
 .mainPilotos .cuadrado {
-  border: grey 2px solid;
+  animation-name: animacion_pilotos;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease;
 }
 .mainPilotos .cuadrado .nombre {
   margin-top: 3px;

@@ -59,11 +59,40 @@
 }
 
 // PILOTOS
+
+// ANIMACION PARA BORDES PILOTOS
+@keyframes animacion_pilotos {
+    0%{
+        border: red solid 2px;
+    }
+    25%{
+        border: red dashed 2px;
+    }
+    50%{
+        border: yellow dashed 2px;
+    }
+    75%{
+        border: yellow solid 2px;
+    }
+    95%{
+        border: orange solid 2px;
+    }
+    100%{
+        border: rgb(255, 115, 0) solid 2px;
+    }
+    
+};
+// FIN ANIMACION PARA BORDES PILOTOS
+
 .mainPilotos{
     background-color: map-get($colores, colorPilotos );
     padding: 0;
     .cuadrado{
-        border: grey 2px solid;
+        animation-name: animacion_pilotos;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+        animation-timing-function: ease;
         .nombre{
             margin-top: 3px;
             border: 2px red solid;
@@ -145,7 +174,7 @@
         .datoslista{
             text-align: right;
             margin-left: 5px;
-        }
+        }        
     }
     #videoAlonso{
         grid-column: 1/2;
