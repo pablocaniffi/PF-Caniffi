@@ -173,7 +173,7 @@
 .mainCuestionario{
     height: 1400px;
     @include grid (grid , 1fr , 40px 1fr , 6px);
-    background-color: map-get($colores, colorCuestionario );
+    background-image: linear-gradient(to top, yellow , rgb(155, 155, 32));
     .ubiForm1{
         grid-column: 1/2;
         grid-row: 1/2;
