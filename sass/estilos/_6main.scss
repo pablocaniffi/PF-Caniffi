@@ -17,10 +17,10 @@
         font-size: 20px;
         text-align: center;
         padding: 25px;
+        transition: 1s;
         &:hover{
             color:yellow;
-            background-size: 120%;
-            transition: 1s;
+            transform: scale(1.05);
         }
     }
     .principal{
@@ -537,6 +537,12 @@
             width: auto;
         }        
     }
+
+    // CAMPEONES
+    .mainCampeones{
+        margin-top: $margintopmain;
+    }
+
 
     // CUESTIONARIO
     .mainCuestionario{

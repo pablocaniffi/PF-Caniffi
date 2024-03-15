@@ -415,7 +415,7 @@
   .asideCampeones {
     margin-top: 149px;
     background-color: aqua;
-    height: 800px;
+    height: 870px;
     background-image: url(../multimedia/campeones/5ferrari.jpg);
     background-repeat: repeat-y;
     background-size: cover;
@@ -450,11 +450,11 @@
   font-size: 20px;
   text-align: center;
   padding: 25px;
+  transition: 1s;
 }
 .mainInicio a:hover {
   color: yellow;
-  background-size: 120%;
-  transition: 1s;
+  transform: scale(1.05);
 }
 .mainInicio .principal {
   display: inline-block;
@@ -935,6 +935,9 @@
     padding: 8px;
     height: auto;
     width: auto;
+  }
+  .mainCampeones {
+    margin-top: 149px;
   }
   .mainCuestionario {
     margin-top: 149px;

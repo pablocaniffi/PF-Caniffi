@@ -120,7 +120,7 @@
     // CAMPEONES
     .asideCampeones{
         margin-top: $margintopmain;
-        @include asideGeneral (map-get($colores, colorAside ) , 800px , url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
+        @include asideGeneral (map-get($colores, colorAside ) , 870px , url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
