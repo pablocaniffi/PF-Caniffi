@@ -6,31 +6,31 @@
 
 // INICIO
 .asideInicio {
-    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../multimedia/inicio/2inicioaside.JPG) , repeat-y , contain, top);
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../../multimedia/inicio/2inicioaside.webp) , repeat-y , contain, top);
 }
 
 
 // PILOTOS
 .asidePilotos{
-    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../multimedia/pilotos/asidepilotos.jpg) , repeat-y , cover, top);
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../../multimedia/pilotos/asidepilotos.webp) , repeat-y , cover, top);
 }
 
 
 // ALONSO
 .asideAlonso{
-    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside ,  url(../multimedia/alonso/1alonso.jpg) , repeat-y , cover, top);
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside ,  url(../../multimedia/alonso/1alonso.webp) , repeat-y , cover, top);
 }
 
 
 // CAMPEONES
 .asideCampeones{
-    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside ,  url(../multimedia/campeones/1vettel.jpg) , repeat-y , cover, top);
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside ,  url(../../multimedia/campeones/1vettel.webp) , repeat-y , cover, top);
 }
 
 
 // CUESTIONARIO
 .asideCuestionario{
-    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../multimedia/cuestionario/3cuestionario.jpg)  , repeat-y , cover, center);
+    @include asideGeneral (map-get($colores, colorAside ) , $alturaNavAside , url(../../multimedia/cuestionario/3cuestionario.webp)  , repeat-y , cover, center);
 }
 
 
@@ -45,7 +45,7 @@
 
     // PILOTOS
     .asidePilotos{
-        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos576 , url(../multimedia/pilotos/asidepilotos2.jpg)  , repeat-y , contain, top);
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos576 , url(../../multimedia/pilotos/asidepilotos2.webp)  , repeat-y , contain, top);
     }
 
     // ALONSO
@@ -55,12 +55,12 @@
 
     // CAMPEONES
     .asideCampeones{
-        @include asideGeneral (map-get($colores, colorAside ) , 900px ,  url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
+        @include asideGeneral (map-get($colores, colorAside ) , 900px ,  url(../../multimedia/campeones/5ferrari.webp) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
     .asideCuestionario{
-        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario576 , url(../multimedia/cuestionario/2cuestionario.jpg) , repeat-y , contain, top);
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario576 , url(../../multimedia/cuestionario/2cuestionario.webp) , repeat-y , contain, top);
     }
 }
 
@@ -73,7 +73,7 @@
 
     // PILOTOS
     .asidePilotos{
-        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos851 , url(../multimedia/pilotos/asidepilotos2.jpg) , repeat-y , contain, top);
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos851 , url(../../multimedia/pilotos/asidepilotos2.webp) , repeat-y , contain, top);
     }
 
     // ALONSO
@@ -85,12 +85,12 @@
 
     // CAMPEONES
     .asideCampeones{
-        @include asideGeneral (map-get($colores, colorAside ) , 870px , url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
+        @include asideGeneral (map-get($colores, colorAside ) , 870px , url(../../multimedia/campeones/5ferrari.webp) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
     .asideCuestionario{
-        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario851 , url(../multimedia/cuestionario/2cuestionario.jpg) , repeat-y , contain, top);
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario851 , url(../../multimedia/cuestionario/2cuestionario.webp) , repeat-y , contain, top);
     }
 }
 
@@ -108,7 +108,7 @@
     // PILOTOS
     .asidePilotos{
         margin-top: $margintopmain;
-        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos1111 ,  url(../multimedia/pilotos/asidepilotos2.jpg) , repeat-y , contain , top);
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaPilotos1111 ,  url(../../multimedia/pilotos/asidepilotos2.webp) , repeat-y , contain , top);
     }
 
     // ALONSO
@@ -120,12 +120,12 @@
     // CAMPEONES
     .asideCampeones{
         margin-top: $margintopmain;
-        @include asideGeneral (map-get($colores, colorAside ) , 870px , url(../multimedia/campeones/5ferrari.jpg) , repeat-y , cover, center);
+        @include asideGeneral (map-get($colores, colorAside ) , 870px , url(../../multimedia/campeones/5ferrari.webp) , repeat-y , cover, center);
     }
 
     // CUESTIONARIO
     .asideCuestionario{
         margin-top: $margintopmain;
-        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario1111 , url(../multimedia/cuestionario/2cuestionario.jpg) , repeat-y , contain, top);
+        @include asideGeneral (map-get($colores, colorAside ) , $alturaCuestionario1111 , url(../../multimedia/cuestionario/2cuestionario.webp) , repeat-y , contain, top);
     }
 }
