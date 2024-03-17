@@ -168,13 +168,90 @@
         list-style-type: circle;
         font-family: map-get($fuentes, fuenteBlankSketch ) , sans-serif;
         font-size: 17px;
+        color: map-get($colores, colorPrincipal );
         .tituloLista{
             text-decoration: underline;
         }
         .datoslista{
             text-align: right;
             margin-left: 5px;
-        }        
+        }  
+
+        // ANIMACION LISTA
+        @keyframes animacion_alonso_1{
+            0%{
+                color: blue;
+            }
+            17%{
+                color: red;
+            }
+        };
+        @keyframes animacion_alonso_2{
+            0%{
+                color: red;
+            }
+            18%{
+                color: blue;
+            }
+            34%{
+                color: red;
+            }
+        };
+        @keyframes animacion_alonso_3{
+            0%{
+                color: red;
+            }
+            35%{
+                color: blue;
+            }
+            51%{
+                color: red;
+            }
+        };
+        @keyframes animacion_alonso_4{
+            0%{
+                color: red;
+            }
+            52%{
+                color: blue;
+            }
+            68%{
+                color: red;
+            }
+        };
+        @keyframes animacion_alonso_5{
+            0%{
+                color: red;
+            }
+            69%{
+                color: blue;
+            }
+            85%{
+                color: red;
+            }
+        };
+        @keyframes animacion_alonso_6{
+            0%{
+                color: red;
+            }
+            86%{
+                color: blue;
+            }
+            100%{
+                color: red;
+            }
+        };
+        
+        @for $j from 1 through 6 {
+            .esc#{$j} {
+                animation-name: animacion_alonso_#{$j};
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-delay: 0s;
+                animation-timing-function: ease-in;
+            }    
+        };
+        // FIN ANIMACION LISTA      
     }
     #videoAlonso{
         grid-column: 1/2;

@@ -598,6 +598,7 @@
   list-style-type: circle;
   font-family: blankspace-sketch, sans-serif;
   font-size: 17px;
+  color: red;
 }
 .mainAlonso .lista .tituloLista {
   text-decoration: underline;
@@ -605,6 +606,111 @@
 .mainAlonso .lista .datoslista {
   text-align: right;
   margin-left: 5px;
+}
+@keyframes animacion_alonso_1 {
+  0% {
+    color: blue;
+  }
+  17% {
+    color: red;
+  }
+}
+@keyframes animacion_alonso_2 {
+  0% {
+    color: red;
+  }
+  18% {
+    color: blue;
+  }
+  34% {
+    color: red;
+  }
+}
+@keyframes animacion_alonso_3 {
+  0% {
+    color: red;
+  }
+  35% {
+    color: blue;
+  }
+  51% {
+    color: red;
+  }
+}
+@keyframes animacion_alonso_4 {
+  0% {
+    color: red;
+  }
+  52% {
+    color: blue;
+  }
+  68% {
+    color: red;
+  }
+}
+@keyframes animacion_alonso_5 {
+  0% {
+    color: red;
+  }
+  69% {
+    color: blue;
+  }
+  85% {
+    color: red;
+  }
+}
+@keyframes animacion_alonso_6 {
+  0% {
+    color: red;
+  }
+  86% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+.mainAlonso .lista .esc1 {
+  animation-name: animacion_alonso_1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+}
+.mainAlonso .lista .esc2 {
+  animation-name: animacion_alonso_2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+}
+.mainAlonso .lista .esc3 {
+  animation-name: animacion_alonso_3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+}
+.mainAlonso .lista .esc4 {
+  animation-name: animacion_alonso_4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+}
+.mainAlonso .lista .esc5 {
+  animation-name: animacion_alonso_5;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+}
+.mainAlonso .lista .esc6 {
+  animation-name: animacion_alonso_6;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
 }
 .mainAlonso #videoAlonso {
   grid-column: 1/2;
