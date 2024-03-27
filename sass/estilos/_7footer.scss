@@ -1,15 +1,12 @@
 // responsive  en todo dispositivo
 
 .pie{
-    margin: 0;
-    padding: 0;
     height: fit-content;
-    background-color: grey;
     font-family: map-get($fuentes, fuenteBlankSolid ) , sans-serif;
-    padding: 8px;
     color: black;
-    // border: green 2px solid;
+    background-color: grey;
     .map{
+        margin-top: 5px;
         height: auto;
         width: 75%;
     }
@@ -24,9 +21,11 @@
         // border: red 2px solid;
     }
     .logosEscuderias{
+        margin-top: 5px;
         height: 160px;
         width: auto;
     }
 }
+
 
 // ver condicionales.scss para .logosEscuderias

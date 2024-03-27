@@ -1075,15 +1075,13 @@
   }
 }
 .pie {
-  margin: 0;
-  padding: 0;
   height: fit-content;
-  background-color: grey;
   font-family: blankspace-solid, sans-serif;
-  padding: 8px;
   color: black;
+  background-color: grey;
 }
 .pie .map {
+  margin-top: 5px;
   height: auto;
   width: 75%;
 }
@@ -1097,6 +1095,7 @@
   text-align: center;
 }
 .pie .logosEscuderias {
+  margin-top: 5px;
   height: 160px;
   width: auto;
 }
