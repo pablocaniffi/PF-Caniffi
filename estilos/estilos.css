@@ -373,7 +373,7 @@
     background-position: top;
   }
   .asideAlonso {
-    height: 850px;
+    height: 900px;
     background-size: cover;
     background-position: top;
   }
@@ -547,7 +547,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 310px 130px 230px 1fr;
+  grid-template-rows: 50px 325px 130px 230px 1fr;
   gap: 0px;
   background-color: yellow;
   gap: 2px;
@@ -566,7 +566,7 @@
   color: blue;
   text-align: justify;
   border: blue solid 2px;
-  margin: 3px;
+  margin: 10px;
   padding: 10px;
   overflow: auto;
 }
@@ -870,7 +870,7 @@
     height: 950px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 250px 190px 230px 1fr;
+    grid-template-rows: 60px 1fr 190px 230px 170px;
     gap: 0px;
     background-color: yellow;
     gap: 2px;
@@ -944,10 +944,10 @@
     font-size: 19px;
   }
   .mainAlonso {
-    height: 850px;
+    height: 900px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 150px 190px 230px 1fr;
+    grid-template-rows: 60px 1fr 190px 230px 170px;
     gap: 0px;
   }
   .mainAlonso .alonsodesc {
@@ -1022,7 +1022,7 @@
     height: 1050px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 60px 320px 340px 1fr;
+    grid-template-rows: 60px 1fr 340px 200px;
     gap: 0px;
   }
   .mainAlonso .al11 {
@@ -1040,7 +1040,7 @@
     grid-row: 2/3;
     /* acá se encuentran las imágenes */
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
