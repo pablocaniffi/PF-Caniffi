@@ -14,10 +14,9 @@
     align-content: $content;
 };
 
-@mixin asideGeneral ($elegirColor , $elegirAltura , $elegirImagen , $repeticion , $tamanoImagen , $colocacionImagen){
+@mixin asideGeneral ($elegirColor , $elegirAltura , $repeticion , $tamanoImagen , $colocacionImagen){
     background-color: $elegirColor;
     height: $elegirAltura;
-    background-image: $elegirImagen;
     background-repeat: $repeticion;
     background-size: $tamanoImagen;
     background-position: $colocacionImagen;
