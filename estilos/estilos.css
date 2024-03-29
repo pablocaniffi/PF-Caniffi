@@ -464,22 +464,22 @@
 .mainInicio .im1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(../../multimedia/inicio/3iniciopilotos.jpg);
+  background-image: url(../multimedia/inicio/3iniciopilotos.webp);
 }
 .mainInicio .im2 {
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(../../multimedia/inicio/4inicioalonso.jpg);
+  background-image: url(../multimedia/inicio/4inicioalonso.webp);
 }
 .mainInicio .im3 {
   grid-column: 1/2;
   grid-row: 3/4;
-  background-image: url(../../multimedia/inicio/5iniciocampeones.jpg);
+  background-image: url(../multimedia/inicio/5iniciocampeones.webp);
 }
 .mainInicio .im4 {
   grid-column: 1/2;
   grid-row: 4/5;
-  background-image: url(../../multimedia/inicio/6iniciocuestionario.jpg);
+  background-image: url(../multimedia/inicio/6iniciocuestionario.webp);
 }
 
 .h2titulo {
