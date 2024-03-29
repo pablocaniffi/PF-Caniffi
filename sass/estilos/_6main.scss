@@ -169,7 +169,7 @@
         list-style-type: circle;
         font-family: map-get($fuentes, fuenteBlankSketch ) , sans-serif;
         font-size: 17px;
-        color: map-get($colores, colorPrincipal );
+        color: yellow;
         .tituloLista{
             text-decoration: underline;
         }
@@ -184,62 +184,62 @@
                 color: blue;
             }
             17%{
-                color: red;
+                color: yellow;
             }
         };
         @keyframes animacion_alonso_2{
             0%{
-                color: red;
+                color: yellow;
             }
             18%{
                 color: blue;
             }
             34%{
-                color: red;
+                color: yellow;
             }
         };
         @keyframes animacion_alonso_3{
             0%{
-                color: red;
+                color: yellow;
             }
             35%{
                 color: blue;
             }
             51%{
-                color: red;
+                color: yellow;
             }
         };
         @keyframes animacion_alonso_4{
             0%{
-                color: red;
+                color: yellow;
             }
             52%{
                 color: blue;
             }
             68%{
-                color: red;
+                color: yellow;
             }
         };
         @keyframes animacion_alonso_5{
             0%{
-                color: red;
+                color: yellow;
             }
             69%{
                 color: blue;
             }
             85%{
-                color: red;
+                color: yellow;
             }
         };
         @keyframes animacion_alonso_6{
             0%{
-                color: red;
+                color: yellow;
             }
             86%{
                 color: blue;
             }
             100%{
-                color: red;
+                color: yellow;
             }
         };
         
@@ -387,7 +387,6 @@
         .alonsodesc{
             margin: 18px;
             padding: 19px;
-            overflow: auto;
         }
         .lista{
             margin-left: 20px;
@@ -434,7 +433,6 @@
         .alonsodesc{
             margin: 18px;
             padding: 20px;
-            overflow: scroll;
         }
         .alFotos{
             .alonso1{
@@ -521,7 +519,6 @@
         .alonsodesc{
             margin: 15px;
             padding: 10px;
-            overflow: scroll;
         }
         .alFotos{
             .alonso1{
@@ -612,7 +609,6 @@
             font-size: 19px;
             margin: 20px;
             padding: 12px;
-            overflow: scroll;
         }
         .alFotos{
             grid-column: 2/3;

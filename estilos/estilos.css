@@ -410,7 +410,7 @@
   }
   .asideAlonso {
     margin-top: 149px;
-    height: 1050px;
+    height: 1080px;
   }
   .asideCampeones {
     margin-top: 149px;
@@ -599,7 +599,7 @@
   list-style-type: circle;
   font-family: blankspace-sketch, sans-serif;
   font-size: 17px;
-  color: red;
+  color: yellow;
 }
 .mainAlonso .lista .tituloLista {
   text-decoration: underline;
@@ -613,62 +613,62 @@
     color: blue;
   }
   17% {
-    color: red;
+    color: yellow;
   }
 }
 @keyframes animacion_alonso_2 {
   0% {
-    color: red;
+    color: yellow;
   }
   18% {
     color: blue;
   }
   34% {
-    color: red;
+    color: yellow;
   }
 }
 @keyframes animacion_alonso_3 {
   0% {
-    color: red;
+    color: yellow;
   }
   35% {
     color: blue;
   }
   51% {
-    color: red;
+    color: yellow;
   }
 }
 @keyframes animacion_alonso_4 {
   0% {
-    color: red;
+    color: yellow;
   }
   52% {
     color: blue;
   }
   68% {
-    color: red;
+    color: yellow;
   }
 }
 @keyframes animacion_alonso_5 {
   0% {
-    color: red;
+    color: yellow;
   }
   69% {
     color: blue;
   }
   85% {
-    color: red;
+    color: yellow;
   }
 }
 @keyframes animacion_alonso_6 {
   0% {
-    color: red;
+    color: yellow;
   }
   86% {
     color: blue;
   }
   100% {
-    color: red;
+    color: yellow;
   }
 }
 .mainAlonso .lista .esc1 {
@@ -833,7 +833,6 @@
   .mainAlonso .alonsodesc {
     margin: 18px;
     padding: 19px;
-    overflow: auto;
   }
   .mainAlonso .lista {
     margin-left: 20px;
@@ -877,7 +876,6 @@
   .mainAlonso .alonsodesc {
     margin: 18px;
     padding: 20px;
-    overflow: scroll;
   }
   .mainAlonso .alFotos .alonso1 {
     width: auto;
@@ -951,7 +949,6 @@
   .mainAlonso .alonsodesc {
     margin: 15px;
     padding: 10px;
-    overflow: scroll;
   }
   .mainAlonso .alFotos .alonso1 {
     width: auto;
@@ -1017,7 +1014,7 @@
   }
   .mainAlonso {
     margin-top: 149px;
-    height: 1050px;
+    height: 1080px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 60px 1fr 330px 170px;
@@ -1031,7 +1028,6 @@
     font-size: 19px;
     margin: 20px;
     padding: 12px;
-    overflow: scroll;
   }
   .mainAlonso .alFotos {
     grid-column: 2/3;
