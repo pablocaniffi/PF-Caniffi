@@ -115,6 +115,23 @@
             font-family: map-get($fuentes, fuenteBlankSketch ) , sans-serif;
             font-size: 17px;
         }
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        left: 30px;
+        bottom: 30px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 25px;
+        &:hover{
+            color:red;
+            box-shadow: 0px 0px 10px white;
+        }
     }    
 }
     
