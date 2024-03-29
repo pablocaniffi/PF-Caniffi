@@ -284,48 +284,48 @@
   }
 }
 .asideInicio {
-  background-image: url(../../multimedia/inicio/2inicioaside.webp);
   background-color: aqua;
   height: 250px;
   background-repeat: repeat-y;
   background-size: contain;
   background-position: top;
+  background-image: url(../../multimedia/inicio/2inicioaside.webp);
 }
 
 .asidePilotos {
-  background-image: url(../../multimedia/pilotos/asidepilotos.webp);
   background-color: aqua;
   height: 250px;
   background-repeat: repeat-y;
   background-size: cover;
   background-position: top;
+  background-image: url(../../multimedia/pilotos/asidepilotos.webp);
 }
 
 .asideAlonso {
-  background-image: url(../../multimedia/alonso/1alonso.webp);
   background-color: aqua;
   height: 250px;
   background-repeat: repeat-y;
   background-size: cover;
   background-position: top;
+  background-image: url(../../multimedia/alonso/1alonso.webp);
 }
 
 .asideCampeones {
-  background-image: url(../../multimedia/campeones/1vettel.webp);
   background-color: aqua;
   height: 250px;
   background-repeat: repeat-y;
   background-size: cover;
   background-position: top;
+  background-image: url(../../multimedia/campeones/1vettel.webp);
 }
 
 .asideCuestionario {
-  background-image: url(../../multimedia/cuestionario/3cuestionario.webp);
   background-color: aqua;
   height: 250px;
   background-repeat: repeat-y;
   background-size: cover;
   background-position: center;
+  background-image: url(../../multimedia/cuestionario/3cuestionario.webp);
 }
 
 @media screen and (min-width: 576px) and (max-width: 850px) {
@@ -333,31 +333,31 @@
     height: 800px;
   }
   .asidePilotos {
-    background-image: url(../../multimedia/pilotos/asidepilotos2.webp);
     background-color: aqua;
     height: auto;
     background-repeat: repeat-y;
     background-size: contain;
     background-position: top;
+    background-image: url(../../multimedia/pilotos/asidepilotos2.webp);
   }
   .asideAlonso {
     height: 950px;
   }
   .asideCampeones {
-    background-image: url(../../multimedia/campeones/5ferrari.webp);
     background-color: aqua;
     height: 900px;
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
+    background-image: url(../../multimedia/campeones/5ferrari.webp);
   }
   .asideCuestionario {
-    background-image: url(../../multimedia/cuestionario/2cuestionario.webp);
     background-color: aqua;
     height: 1400px;
     background-repeat: repeat-y;
     background-size: contain;
     background-position: top;
+    background-image: url(../../multimedia/cuestionario/2cuestionario.webp);
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1110px) {
@@ -365,12 +365,12 @@
     height: 900px;
   }
   .asidePilotos {
-    background-image: url(../../multimedia/pilotos/asidepilotos2.webp);
     background-color: aqua;
     height: auto;
     background-repeat: repeat-y;
     background-size: contain;
     background-position: top;
+    background-image: url(../../multimedia/pilotos/asidepilotos2.webp);
   }
   .asideAlonso {
     height: 900px;
@@ -378,20 +378,20 @@
     background-position: top;
   }
   .asideCampeones {
-    background-image: url(../../multimedia/campeones/5ferrari.webp);
     background-color: aqua;
     height: 870px;
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
+    background-image: url(../../multimedia/campeones/5ferrari.webp);
   }
   .asideCuestionario {
-    background-image: url(../../multimedia/cuestionario/2cuestionario.webp);
     background-color: aqua;
     height: 1400px;
     background-repeat: repeat-y;
     background-size: contain;
     background-position: top;
+    background-image: url(../../multimedia/cuestionario/2cuestionario.webp);
   }
 }
 @media screen and (min-width: 1111px) {
@@ -401,12 +401,12 @@
   }
   .asidePilotos {
     margin-top: 149px;
-    background-image: url(../../multimedia/pilotos/asidepilotos2.webp);
     background-color: aqua;
     height: auto;
     background-repeat: repeat-y;
     background-size: contain;
     background-position: top;
+    background-image: url(../../multimedia/pilotos/asidepilotos2.webp);
   }
   .asideAlonso {
     margin-top: 149px;
@@ -414,21 +414,21 @@
   }
   .asideCampeones {
     margin-top: 149px;
-    background-image: url(../../multimedia/campeones/5ferrari.webp);
     background-color: aqua;
     height: 870px;
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
+    background-image: url(../../multimedia/campeones/5ferrari.webp);
   }
   .asideCuestionario {
     margin-top: 149px;
-    background-image: url(../../multimedia/cuestionario/2cuestionario.webp);
     background-color: aqua;
     height: 1420px;
     background-repeat: repeat-y;
     background-size: contain;
     background-position: top;
+    background-image: url(../../multimedia/cuestionario/2cuestionario.webp);
   }
 }
 .mainInicio {
