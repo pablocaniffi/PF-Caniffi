@@ -7,7 +7,7 @@
     // width: auto;
     padding: 0;
     @include grid (grid , 1fr , repeat(4 , 1fr) , 0px);
-    background-color: map-get($colores, colorInicio );
+    background-color: map-get($colores, colorInicio);
     a{
         text-decoration: none;
         color: #fff;
@@ -55,7 +55,8 @@
     /* se uso también en titulo de las páginas */
     font-family: map-get($fuentes, fuenteFaster ) , sans-serif;
     font-size: 20px;
-    padding: 20px; 
+    padding: 20px;
+    color: orange; 
 }
 
 // PILOTOS
@@ -126,7 +127,7 @@
     height: 950px;
     padding: 0;
     @include grid (grid , 1fr , 50px 325px 130px 230px 1fr , 0px);
-    background-color: map-get($colores, colorAlonso );
+    background-color: map-get($colores, colorAlonso);
     gap: 2px;
     .al11{
         grid-column:1/2;
@@ -139,7 +140,7 @@
         font-family: map-get($fuentes , fuenteBlankSolid ) , sans-serif;
         font-size: 16px;
         text-decoration: none;
-        color: blue;
+        color: yellow;
         text-align: justify;
         border: blue solid 2px;
         margin: 10px;
@@ -279,7 +280,7 @@
 .mainCuestionario{
     height: 1400px;
     @include grid (grid , 1fr , 40px 1fr , 6px);
-    background-image: linear-gradient(to top, yellow , rgb(155, 155, 32));
+    background-image: linear-gradient(to top, rgb(14, 146, 14) , green);
     .ubiForm1{
         grid-column: 1/2;
         grid-row: 1/2;
@@ -324,7 +325,7 @@
             border: grey 1px solid;
             margin: 5px;
             .field{
-                color: green;
+                color: black;
                 font-size: 18px;
                 padding: 0 0 0 25px;
                 margin-left: 0px;
@@ -409,7 +410,6 @@
         height: $alturaInicio576;
         @include grid (grid , 1fr , repeat(4 , 1fr), 0px);
         padding: 20px;
-        background-color: rgb(3, 3, 3);
         gap: 5px;
         .principal{
             margin-top: 40px;
@@ -430,7 +430,6 @@
     .mainAlonso{
         height: $alturaAlonso576;
         @include grid (grid , 1fr , 60px 1fr 190px 230px 170px , 0px);
-        background-color: yellow;
         gap: 2px;
         .alonsodesc{
             margin: 18px;
@@ -468,7 +467,6 @@
         height: $alturaInicio851;
         @include grid (grid , 1fr 600px 1fr , repeat(4 , 1fr) , 0px);
         padding: 20px;
-        background-color: rgb(3, 3, 3);
         gap: 5px;
         .principal{
             margin-top: 60px;
@@ -605,7 +603,7 @@
     .mainAlonso{
         margin-top: $margintopmain;
         height: $alturaAlonso1111;
-        @include grid (grid , repeat(2 , 1fr) , 60px 1fr 340px 200px , 0px);
+        @include grid (grid , repeat(2 , 1fr) , 60px 1fr 330px 170px , 0px);
         .al11{
             grid-row: 1/2;
             grid-column: 1/3;
